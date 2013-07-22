@@ -6,6 +6,6 @@ The skin used is [Midnight Black](https://github.com/TheInfection/Midnight-Black
 This is not much more than a JPlayer playlist populated with song data from vip's [roster.xml](http://vip.aersia.net/roster.xml). Extra things I've done are:
 
 * The styling in vip.htm to make the controls fixed position.
-* Some changes in roster.xml, namely replacing "&" with "&amp;" to make it well-formed.
+* Some changes in roster.xml, namely replacing "&" with "&amp;amp" to make it well-formed.
 
 Additionally, the vip audio files are **m4a format** which **do not play on Firefox.** It should work on mobile devices though.
