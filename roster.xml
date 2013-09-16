@@ -4,13 +4,13 @@
 
 		<track>
 			<creator>Vidya Intarweb Playlist</creator>
-			<title>834 Tracks (Last Update: Apr 27 13)</title>
+			<title>863 Tracks (Last Update: Sep 10 13)</title>
 			<location>http://vip.aersia.net/mu/vip.m4a</location>
 		</track>
 
 		<track>
-			<creator>MOTD 11/28/12</creator>
-			<title>Aersia.net is now open!</title>
+			<creator>MOTD 8/4/12</creator>
+			<title>5600-2276-8291: Dream Code</title>
 			<location>http://vip.aersia.net/mu/rayman-stageclear.m4a</location>
 		</track>
 
@@ -135,15 +135,45 @@
 		</track>
 
 		<track>
+			<creator>Airport Tycoon 3</creator>
+			<title>Ingame 1</title>
+			<location>http://vip.aersia.net/mu/airporttycoon3-ingame1.m4a</location>
+		</track>
+
+		<track>
+			<creator>Airport Tycoon 3</creator>
+			<title>Ingame 2</title>
+			<location>http://vip.aersia.net/mu/airporttycoon3-ingame2.m4a</location>
+		</track>
+
+		<track>
+			<creator>Airport Tycoon 3</creator>
+			<title>Menu</title>
+			<location>http://vip.aersia.net/mu/airporttycoon3-menu.m4a</location>
+		</track>
+
+		<track>
 			<creator>Alan Wake</creator>
 			<title>The Poet and the Muse</title>
 			<location>http://vip.aersia.net/mu/alanwake-poetandthemuse.m4a</location>
 		</track>
 
 		<track>
+			<creator>Alan Wake's American Nightmare</creator>
+			<title>Balance Slays the Demon</title>
+			<location>http://vip.aersia.net/mu/alanwakesan-balanceslaysthedemon.m4a</location>
+		</track>
+
+		<track>
 			<creator>Alpha Prime</creator>
 			<title>The Dock</title>
 			<location>http://vip.aersia.net/mu/alphaprime-dock.m4a</location>
+		</track>
+
+		<track>
+			<creator>Animal Crossing</creator>
+			<title>Mesmonium - KK Crusin' (True Remix)</title>
+			<location>http://vip.aersia.net/mu/animalcrossing-mesmonium-kkcrusin(trueremix).m4a</location>
 		</track>
 
 		<track>
@@ -180,6 +210,12 @@
 			<creator>Apollo Justice: Ace Attorney</creator>
 			<title>Noriyuki Iwadare - Apollo Justice ~ Start of a New Trial!</title>
 			<location>http://vip.aersia.net/mu/apollojustice-noriyukiiwadare-startofanewtrial.m4a</location>
+		</track>
+
+		<track>
+			<creator>Aqua Kitty</creator>
+			<title>Kitty Rock</title>
+			<location>http://vip.aersia.net/mu/aquakitty-kittyrock.m4a</location>
 		</track>
 
 		<track>
@@ -322,7 +358,7 @@
 
 		<track>
 			<creator>Battlefield 1942</creator>
-			<title>Czech Philharmonic Chamber Orchestra &amp;amp; Kuehn's Mixed Choir - Battlefield</title>
+			<title>Czech Philharmonic Chamber Orchestra &amp; Kuehn's Mixed Choir - Battlefield</title>
 			<location>http://vip.aersia.net/mu/bf1942-czechphilharmonic-battlefield.m4a</location>
 		</track>
 
@@ -615,24 +651,6 @@
 		</track>
 
 		<track>
-			<creator>Castlevania: Harmony of Despair</creator>
-			<title>After Confession</title>
-			<location>http://vip.aersia.net/mu/castlevaniahod-afterconfession.m4a</location>
-		</track>
-
-		<track>
-			<creator>Castlevania: Harmony of Despair</creator>
-			<title>Dracula Castle</title>
-			<location>http://vip.aersia.net/mu/castlevaniahod-draculacastle.m4a</location>
-		</track>
-
-		<track>
-			<creator>Castlevania: Harmony of Despair</creator>
-			<title>Vampire Killer</title>
-			<location>http://vip.aersia.net/mu/castlevaniahod-vampirekiller.m4a</location>
-		</track>
-
-		<track>
 			<creator>Castlevania Judgement</creator>
 			<title>An Empty Tome</title>
 			<location>http://vip.aersia.net/mu/castlevaniajudgement-emptytome.m4a</location>
@@ -669,9 +687,33 @@
 		</track>
 
 		<track>
+			<creator>Castlevania: Harmony of Despair</creator>
+			<title>After Confession</title>
+			<location>http://vip.aersia.net/mu/castlevaniahod-afterconfession.m4a</location>
+		</track>
+
+		<track>
+			<creator>Castlevania: Harmony of Despair</creator>
+			<title>Dracula Castle</title>
+			<location>http://vip.aersia.net/mu/castlevaniahod-draculacastle.m4a</location>
+		</track>
+
+		<track>
+			<creator>Castlevania: Harmony of Despair</creator>
+			<title>Vampire Killer</title>
+			<location>http://vip.aersia.net/mu/castlevaniahod-vampirekiller.m4a</location>
+		</track>
+
+		<track>
 			<creator>Castlevania: Order of Ecclesia</creator>
 			<title>Wandering the Crystal Blue -Arrange Version-</title>
 			<location>http://vip.aersia.net/mu/castlevaniaooe-wanderingthecrystalblue(arrange).m4a</location>
+		</track>
+
+		<track>
+			<creator>Castlevania: Rondo of Blood</creator>
+			<title>Naoto Shibata Project - Cross a Fear</title>
+			<location>http://vip.aersia.net/mu/castlevaniarob-naotoshibata-crossafear.m4a</location>
 		</track>
 
 		<track>
@@ -801,33 +843,33 @@
 		</track>
 
 		<track>
-			<creator>Command &amp;amp; Conquer</creator>
+			<creator>Command &amp; Conquer</creator>
 			<title>Full Stop</title>
-			<location>http://vip.aersia.net/mu/c&amp;amp;c-fullstop.m4a</location>
+			<location>http://vip.aersia.net/mu/c&amp;c-fullstop.m4a</location>
 		</track>
 
 		<track>
-			<creator>Command &amp;amp; Conquer: Red Alert</creator>
+			<creator>Command &amp; Conquer: Red Alert</creator>
 			<title>Big Foot</title>
-			<location>http://vip.aersia.net/mu/c&amp;amp;cra-bigfoot.m4a</location>
+			<location>http://vip.aersia.net/mu/c&amp;cra-bigfoot.m4a</location>
 		</track>
 
 		<track>
-			<creator>Command &amp;amp; Conquer: Red Alert</creator>
+			<creator>Command &amp; Conquer: Red Alert</creator>
 			<title>Chicajo - Hell March Mix Electronica</title>
-			<location>http://vip.aersia.net/mu/c&amp;amp;cra-chicajo-hellmarchmixelectronica.m4a</location>
+			<location>http://vip.aersia.net/mu/c&amp;cra-chicajo-hellmarchmixelectronica.m4a</location>
 		</track>
 
 		<track>
-			<creator>Command &amp;amp; Conquer: Red Alert 2</creator>
+			<creator>Command &amp; Conquer: Red Alert 2</creator>
 			<title>Blow It Up</title>
-			<location>http://vip.aersia.net/mu/c&amp;amp;cra2-blowitup.m4a</location>
+			<location>http://vip.aersia.net/mu/c&amp;cra2-blowitup.m4a</location>
 		</track>
 
 		<track>
-			<creator>Command &amp;amp; Conquer: Tiberian Sun</creator>
+			<creator>Command &amp; Conquer: Tiberian Sun</creator>
 			<title>Pharotek</title>
-			<location>http://vip.aersia.net/mu/c&amp;amp;cts-pharotek.m4a</location>
+			<location>http://vip.aersia.net/mu/c&amp;cts-pharotek.m4a</location>
 		</track>
 
 		<track>
@@ -936,6 +978,12 @@
 			<creator>Demon's Souls</creator>
 			<title>One Who Craves Souls</title>
 			<location>http://vip.aersia.net/mu/demonssouls-1whocravessouls.m4a</location>
+		</track>
+
+		<track>
+			<creator>Death Rally</creator>
+			<title>Can You Hear Me</title>
+			<location>http://vip.aersia.net/mu/deathrally-canyouhearme.m4a</location>
 		</track>
 
 		<track>
@@ -1119,6 +1167,12 @@
 		</track>
 
 		<track>
+			<creator>Duke Nukem 3D</creator>
+			<title>Blake Robinson Synthetic Orchestra - Stalking the Orchestra</title>
+			<location>http://vip.aersia.net/mu/dukenukem3d-blakerobinsonsynthetic-stalkingtheorchestra.m4a</location>
+		</track>
+
+		<track>
 			<creator>Dune 2000</creator>
 			<title>Rise of the Harkonnen</title>
 			<location>http://vip.aersia.net/mu/dune2000-riseoftheharkonnen.m4a</location>
@@ -1269,6 +1323,24 @@
 		</track>
 
 		<track>
+			<creator>Echochrome II</creator>
+			<title>prime #4507-part 1</title>
+			<location>http://vip.aersia.net/mu/echochrome2-prime4507part1.m4a</location>
+		</track>
+
+		<track>
+			<creator>Echochrome II</creator>
+			<title>prime #4507-part 6</title>
+			<location>http://vip.aersia.net/mu/echochrome2-prime4507part6.m4a</location>
+		</track>
+
+		<track>
+			<creator>Echochrome II</creator>
+			<title>prime #4507-part 13</title>
+			<location>http://vip.aersia.net/mu/echochrome2-prime4507part13.m4a</location>
+		</track>
+
+		<track>
 			<creator>Edge</creator>
 			<title>Kakkoi!</title>
 			<location>http://vip.aersia.net/mu/edge-kakkoi.m4a</location>
@@ -1308,6 +1380,24 @@
 			<creator>Emil Chronicle Online</creator>
 			<title>Over the infinite helix</title>
 			<location>http://vip.aersia.net/mu/emilchronicleonline-overtheinfinitehelix.m4a</location>
+		</track>
+
+		<track>
+			<creator>End of Nations</creator>
+			<title>Deflection</title>
+			<location>http://vip.aersia.net/mu/endofnations-deflection.m4a</location>
+		</track>
+
+		<track>
+			<creator>End of Nations</creator>
+			<title>Liberation Front Theme</title>
+			<location>http://vip.aersia.net/mu/endofnations-liberationfronttheme.m4a</location>
+		</track>
+
+		<track>
+			<creator>End of Nations</creator>
+			<title>Main Theme</title>
+			<location>http://vip.aersia.net/mu/endofnations-maintheme.m4a</location>
 		</track>
 
 		<track>
@@ -1392,6 +1482,12 @@
 			<creator>Final Fantasy VI</creator>
 			<title>Terra</title>
 			<location>http://vip.aersia.net/mu/ff6-terra.m4a</location>
+		</track>
+
+		<track>
+			<creator>Final Fantasy VII</creator>
+			<title>Artificial Fear - JENOVA</title>
+			<location>http://vip.aersia.net/mu/ff7-artificialfear-jenova.m4a</location>
 		</track>
 
 		<track>
@@ -1528,8 +1624,8 @@
 
 		<track>
 			<creator>Flimbo's Quest</creator>
-			<title>The St. Albans Rob Hubbard Fan Club - Flimbo's Quest (Rough &amp;amp; Ready)</title>
-			<location>http://vip.aersia.net/mu/flimbosquest-stalbansrobhubbardfanclub-flimbosquest(rough&amp;amp;ready).m4a</location>
+			<title>The St. Albans Rob Hubbard Fan Club - Flimbo's Quest (Rough &amp; Ready)</title>
+			<location>http://vip.aersia.net/mu/flimbosquest-stalbansrobhubbardfanclub-flimbosquest(rough&amp;ready).m4a</location>
 		</track>
 
 		<track>
@@ -1744,7 +1840,7 @@
 
 		<track>
 			<creator>Guild Wars</creator>
-			<title>Czech Philharmonic Chamber Orchestra &amp;amp; Kuehn's Mixed Choir - Guild Wars</title>
+			<title>Czech Philharmonic Chamber Orchestra &amp; Kuehn's Mixed Choir - Guild Wars</title>
 			<location>http://vip.aersia.net/mu/guildwars-czechphilharmonic-guildwars.m4a</location>
 		</track>
 
@@ -1966,8 +2062,8 @@
 
 		<track>
 			<creator>Incredible Crisis</creator>
-			<title>One Afternoon of the Wolves</title>
-			<location>http://vip.aersia.net/mu/incrediblecrisis-1afternoonofthewolves.m4a</location>
+			<title>Taneo Dance Fever</title>
+			<location>http://vip.aersia.net/mu/incrediblecrisis-taneodancefever.m4a</location>
 		</track>
 
 		<track>
@@ -2100,6 +2196,12 @@
 			<creator>Kane &amp; Lynch 2: Dog Days</creator>
 			<title>Foreign Songs (feat. Shen Shen)</title>
 			<location>http://vip.aersia.net/mu/k&amp;l2-foreignsongs.m4a</location>
+		</track>
+
+		<track>
+			<creator>Katamari Damacy</creator>
+			<title>aivi &amp; surasshu - Lonely Rolling Star (Missing You)</title>
+			<location>http://vip.aersia.net/mu/katamaridamacy-aivisurasshu-lonelyrollingstar(missingyou).m4a</location>
 		</track>
 
 		<track>
@@ -2379,6 +2481,12 @@
 		</track>
 
 		<track>
+			<creator>The Legend of Zelda: Link's Awakening</creator>
+			<title>aivi &amp; surasshu - Mabe Village</title>
+			<location>http://vip.aersia.net/mu/lozla-aivisurasshu-mabevillage.m4a</location>
+		</track>
+
+		<track>
 			<creator>The Legend of Zelda: Majora's Mask</creator>
 			<title>Majora Philharmonic Sound Orchestra - Astral Observatory</title>
 			<location>http://vip.aersia.net/mu/lozmm-majoraphilharmonic-astralobservatory.m4a</location>
@@ -2388,6 +2496,12 @@
 			<creator>The Legend of Zelda: Ocarina of Time</creator>
 			<title>Retro Remix Revue - Gerudo Valley Redux</title>
 			<location>http://vip.aersia.net/mu/lozoot-retroremixrevue-gerudovalley.m4a</location>
+		</track>
+
+		<track>
+			<creator>The Legend of Zelda: The Wind Waker</creator>
+			<title>Aivi Tran, Alex Culang - Dragon Roost Island</title>
+			<location>http://vip.aersia.net/mu/lozww-aivitran-dragonroostisland.m4a</location>
 		</track>
 
 		<track>
@@ -2523,9 +2637,21 @@
 		</track>
 
 		<track>
+			<creator>Mario Kart 64</creator>
+			<title>Sole Signal, Tweex - Day's End</title>
+			<location>http://vip.aersia.net/mu/mariokart64-solesignal-daysend.m4a</location>
+		</track>
+
+		<track>
 			<creator>Mass Effect</creator>
 			<title>M4 Part II (Faunts)</title>
 			<location>http://vip.aersia.net/mu/masseffect-m4part2(faunts).m4a</location>
+		</track>
+
+		<track>
+			<creator>Mass Effect</creator>
+			<title>Big Giant Circles - ArmageddoN7</title>
+			<location>http://vip.aersia.net/mu/masseffect-biggiantcircles-armageddon7.m4a</location>
 		</track>
 
 		<track>
@@ -2868,6 +2994,30 @@
 			<creator>Mighty Switch Force</creator>
 			<title>virt - Whoa I'm In Space Cuba (BONUS CHIP MIX)</title>
 			<location>http://vip.aersia.net/mu/msf-virt-whoaiminspacecuba(bonuschip).m4a</location>
+		</track>
+
+		<track>
+			<creator>Mighty Switch Force 2</creator>
+			<title>Dalmation Station</title>
+			<location>http://vip.aersia.net/mu/msf2-dalmatianstation.m4a</location>
+		</track>
+
+		<track>
+			<creator>Mighty Switch Force 2</creator>
+			<title>Got2BAStar</title>
+			<location>http://vip.aersia.net/mu/msf2-got2bastar.m4a</location>
+		</track>
+
+		<track>
+			<creator>Mighty Switch Force 2</creator>
+			<title>Rainbow Love Zone</title>
+			<location>http://vip.aersia.net/mu/msf2-rainbowlovezone.m4a</location>
+		</track>
+
+		<track>
+			<creator>Mighty Switch Force 2</creator>
+			<title>Title</title>
+			<location>http://vip.aersia.net/mu/msf2-title.m4a</location>
 		</track>
 
 		<track>
@@ -3885,6 +4035,12 @@
 		</track>
 
 		<track>
+			<creator>Sonic Colors</creator>
+			<title>Aivi Tran, Dave Harris - Planet Wisp</title>
+			<location>http://vip.aersia.net/mu/soniccolors-aivitran-planetwisp.m4a</location>
+		</track>
+
+		<track>
 			<creator>Sonic Crackers</creator>
 			<title>Electoria</title>
 			<location>http://vip.aersia.net/mu/soniccrackers-electoria.m4a</location>
@@ -3978,6 +4134,18 @@
 			<creator>Space Harrier</creator>
 			<title>Theme</title>
 			<location>http://vip.aersia.net/mu/spaceharrier-theme.m4a</location>
+		</track>
+
+		<track>
+			<creator>SpaceChem</creator>
+			<title>Under Construction</title>
+			<location>http://vip.aersia.net/mu/spacechem-underconstruction.m4a</location>
+		</track>
+
+		<track>
+			<creator>SpaceChem</creator>
+			<title>Working</title>
+			<location>http://vip.aersia.net/mu/spacechem-working.m4a</location>
 		</track>
 
 		<track>
@@ -4152,6 +4320,12 @@
 			<creator>Super Mario Bros. 3</creator>
 			<title>Still Running Around</title>
 			<location>http://vip.aersia.net/mu/smb3-stillrunningaround.m4a</location>
+		</track>
+
+		<track>
+			<creator>Super Mario Bros. 3</creator>
+			<title>Soichi Noriki - Peaceful Mushroom-World</title>
+			<location>http://vip.aersia.net/mu/smb3-soichinoriki-peacefulmushroomworld.m4a</location>
 		</track>
 
 		<track>
