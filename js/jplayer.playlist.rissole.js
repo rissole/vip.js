@@ -100,7 +100,10 @@
 		});
 
 		$(this.cssSelector.next).click(function() {
+            var oldLoop = self.loop;
+            self.loop = false;
 			self.next();
+            self.loop = oldLoop;
 			$(this).blur();
 			return false;
 		});
@@ -393,14 +396,14 @@
 			if(0 <= index && index < this.playlist.length) {
 				this.current = index;
 				this._highlight(index);
-                $('html,body').animate({
-                    scrollTop: $(this.cssSelector.playlist + " li:nth-child(" + (index + 1) + ")").offset().top - 
-                        $('.jp-playlist').offset().top
-                }, 1000);
 				$(this.cssSelector.jPlayer).jPlayer("setMedia", this.playlist[this.current]);
 			} else {
 				this.current = 0;
 			}
+            $('html,body').animate({
+                scrollTop: $(this.cssSelector.playlist + " li:nth-child(" + (index + 1) + ")").offset().top - 
+                    $('.jp-playlist').offset().top
+            }, 1000);
 		},
 		play: function(index) {
 			index = (index < 0) ? this.original.length + index : index; // Negative index relates to end of array.
@@ -419,17 +422,12 @@
 		next: function() {
 			var index = (this.current + 1 < this.playlist.length) ? this.current + 1 : 0;
 
-            if (this.shuffled) {
+            if(this.shuffled) {
                 index = Math.floor(Math.random()*this.playlist.length);
             }
 
 			if(this.loop) {
-				// See if we need to shuffle before looping to start, and only shuffle if more than 1 item.
-				if(index === 0 && this.shuffled && this.options.playlistOptions.shuffleOnLoop && this.playlist.length > 1) {
-					this.shuffle(true, true); // playNow
-				} else {
-					this.play(index);
-				}
+                this.play(this.current);
 			} else {
 				// The index will be zero if it just looped round
 				if(index > 0) {
@@ -452,7 +450,20 @@
 			}
 
 			if(shuffled || shuffled !== this.shuffled) {
-					self.shuffled = shuffled;
+                self.shuffled = shuffled;
+                
+                var index = 0;
+
+                if(self.shuffled) {
+                    index = Math.floor(Math.random()*self.playlist.length);
+
+                    if(playNow || !$(self.cssSelector.jPlayer).data("jPlayer").status.paused) {
+                        self.play(index);
+                    } else {
+                        self.select(index);
+                    }
+                }
+                self._updateControls();
 			}
 		}
 	};
