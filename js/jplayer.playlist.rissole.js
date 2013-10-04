@@ -49,6 +49,7 @@
 
 		this.playlist = []; // Array of Objects: The current playlist displayed (Un-shuffled or Shuffled)
 		this.shuffledIndices = []; // The shuffle ordering
+        this.favourites = []; // List of 'Favourited' songs
 
 		this._initPlaylist(playlist);
 
@@ -283,8 +284,15 @@
 				$(this).blur();
 				return false;
 			});
-
-			// Create live handlers for the remove controls
+            
+            // Create live handlers for the favourite controls
+			$(this.cssSelector.playlist).off("click", "a." + this.options.playlistOptions.favItemClass).on("click", "a." + this.options.playlistOptions.favItemClass, function() {
+				var index = $(this).parent().parent().index();
+				self.setFavourite(index);
+				return false;
+			});
+            
+            // Create live handlers for the remove controls
 			$(this.cssSelector.playlist).off("click", "a." + this.options.playlistOptions.removeItemClass).on("click", "a." + this.options.playlistOptions.removeItemClass, function() {
 				var index = $(this).parent().parent().index();
 				self.remove(index);
@@ -311,6 +319,17 @@
 				$(this.cssSelector.playlist + " .jp-playlist-current").removeClass("jp-playlist-current");
 				$(this.cssSelector.playlist + " li:nth-child(" + (index + 1) + ")").addClass("jp-playlist-current").find(".jp-playlist-item").addClass("jp-playlist-current");
 				$(this.cssSelector.title + " li").html(this.playlist[index].title + (this.playlist[index].artist ? " <span class='jp-artist'>by " + this.playlist[index].artist + "</span>" : ""));
+			}
+		},
+        _highlightFav: function(index, favourited) {
+			if(this.playlist.length && index !== undefined) {
+				var favElem = $(this.cssSelector.playlist + " li:nth-child(" + (index + 1) + ")").find(".jp-playlist-item-fav");
+                console.log(favElem);
+                if(favourited) {
+                    favElem.addClass("jp-playlist-item-fav-on");
+                } else {
+                    favElem.removeClass("jp-playlist-item-fav-on");
+                }
 			}
 		},
 		_shuffledIndex: function(index) {
@@ -485,6 +504,23 @@
                 }
                 self._updateControls();
 			}
-		}
+		},
+        setFavourite: function(index, favourited) {
+            var self = this;
+            var song = self.playlist[index];
+
+            var favIndex = $.inArray(song, self.favourites);
+			if(favIndex > -1) {
+                if(!favourited) {
+                    self.favourites.splice(favIndex, 1);
+                    self._highlightFav(index, false);
+                }
+            } else {
+                if(favourited || favourited === undefined) {
+                    self.favourites.push(song);
+                    self._highlightFav(index, true);
+                }
+            }
+        }
 	};
 })(jQuery);

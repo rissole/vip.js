@@ -21,9 +21,11 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav {
     text-align:right;
     margin-right:10px;
     font-weight:bold;
+    line-height:1;
+    font-size:1.5em;
     color:#666;
 }
 
-div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav:hover { 
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav:hover, div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav-on { 
     color:#0d88c1;
 }
