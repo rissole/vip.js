@@ -15,7 +15,7 @@ body {
 	margin-top: 69px !important;
 }
 
-a.jp-playlist-item-fav {
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav { 
     float:right;
     display:inline;
     text-align:right;
@@ -24,6 +24,6 @@ a.jp-playlist-item-fav {
     color:#666;
 }
 
-a.jp-playlist-item-fav:hover {
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav:hover { 
     color:#0d88c1;
 }
