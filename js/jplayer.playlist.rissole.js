@@ -48,6 +48,7 @@
 		}, this._options, options); // Object: The jPlayer constructor options for this playlist and the playlist options
 
 		this.playlist = []; // Array of Objects: The current playlist displayed (Un-shuffled or Shuffled)
+		this.shuffledIndices = []; // The shuffle ordering
 
 		this._initPlaylist(playlist);
 
@@ -177,9 +178,9 @@
 			var self = this;
 			this._refresh(function() {
 				if(self.options.playlistOptions.autoPlay) {
-					self.play(self.current);
+					self.play(self.current, true);
 				} else {
-					self.select(self.current);
+					self.select(self.current, true);
 				}
 			});
 		},
@@ -307,6 +308,12 @@
 				$(this.cssSelector.title + " li").html(this.playlist[index].title + (this.playlist[index].artist ? " <span class='jp-artist'>by " + this.playlist[index].artist + "</span>" : ""));
 			}
 		},
+		_shuffledIndex: function(index) {
+		    if(this.shuffled) {
+		        return this.shuffledIndices[index];
+		    }
+		    return index;
+        },
 		setPlaylist: function(playlist) {
 			this._initPlaylist(playlist);
 			this._init();
@@ -373,25 +380,43 @@
 				}
 			}
 		},
-		select: function(index) {
+		select: function(index, shuffleSelect) {
 			index = (index < 0) ? this.playlist.length + index : index; // Negative index relates to end of array.
+			var shuffledIndex = shuffleSelect ? this._shuffledIndex(index) : index;
+
+			// we clicked one manually and we are shuffled => put it in the shuffle queue in this position.
+			if(!shuffleSelect && this.shuffled) {
+                var temp = this.shuffledIndices[this.current+1];
+                var self = this;
+                // swap out what would've been here
+                $.each(this.shuffledIndices, function(i) {
+                    if (self.shuffledIndices[i] === index) {
+                        self.shuffledIndices[i] = temp;
+                        return false;
+                    }
+                });
+                this.shuffledIndices[this.current+1] = index;
+                // since we're shuffled we want to use the next index in the shuffle queue
+                // which now maps to the song we just manually clicked
+                index = this.current+1;
+            }
 			if(0 <= index && index < this.playlist.length) {
 				this.current = index;
-				this._highlight(index);
-				$(this.cssSelector.jPlayer).jPlayer("setMedia", this.playlist[this.current]);
+				this._highlight(shuffledIndex);
+				$(this.cssSelector.jPlayer).jPlayer("setMedia", this.playlist[shuffledIndex]);
 			} else {
 				this.current = 0;
 			}
             $('html,body').animate({
-                scrollTop: $(this.cssSelector.playlist + " li:nth-child(" + (index + 1) + ")").offset().top - 
+                scrollTop: $(this.cssSelector.playlist + " li:nth-child(" + (shuffledIndex + 1) + ")").offset().top - 
                     $('.jp-playlist').offset().top
             }, 1000);
 		},
-		play: function(index) {
+		play: function(index, shuffleSelect) {
 			index = (index < 0) ? this.playlist.length + index : index; // Negative index relates to end of array.
 			if(0 <= index && index < this.playlist.length) {
 				if(this.playlist.length) {
-					this.select(index);
+					this.select(index, shuffleSelect);
 					$(this.cssSelector.jPlayer).jPlayer("play");
 				}
 			} else if(index === undefined) {
@@ -404,16 +429,12 @@
 		next: function() {
 			var index = (this.current + 1 < this.playlist.length) ? this.current + 1 : 0;
 
-            if(this.shuffled) {
-                index = Math.floor(Math.random()*this.playlist.length);
-            }
-
 			if(this.loop) {
                 this.play(this.current);
 			} else {
 				// The index will be zero if it just looped round
 				if(index > 0) {
-					this.play(index);
+					this.play(index, true);
 				}
 			}
 		},
@@ -421,7 +442,7 @@
 			var index = (this.current - 1 >= 0) ? this.current - 1 : this.playlist.length - 1;
 
 			if(this.loop && this.options.playlistOptions.loopOnPrevious || index < this.playlist.length - 1) {
-				this.play(index);
+				this.play(index, true);
 			}
 		},
 		shuffle: function(shuffled, playNow) {
@@ -437,13 +458,25 @@
                 var index = 0;
 
                 if(self.shuffled) {
-                    index = Math.floor(Math.random()*self.playlist.length);
+                    // Do the Fisher-Yates shuffle!
+                    var i = 0;
+                    for (; i < self.playlist.length; ++i) {
+                        self.shuffledIndices[i] = i;
+                    }
+                    for (var j = i - 1; j > 0; --j) {
+                        var r = Math.floor(Math.random()*(j+1)); // 0 <= r <= i
+                        var temp = self.shuffledIndices[r];
+                        self.shuffledIndices[r] = self.shuffledIndices[j];
+                        self.shuffledIndices[j] = temp;
+                    }
 
                     if(playNow || !$(self.cssSelector.jPlayer).data("jPlayer").status.paused) {
-                        self.play(index);
+                        self.play(0, true);
                     } else {
-                        self.select(index);
+                        self.select(0, true);
                     }
+                } else {
+                    self.current = self._shuffledIndex(self.current);
                 }
                 self._updateControls();
 			}
