@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+}
+
+#jp_container_1 {
+	width: 100%;
+}
+
+.jp-interface {
+	position: fixed !important;
+	top: 0px !important;
+}
+
+.jp-playlist {
+	margin-top: 69px !important;
+}
+
+a.jp-playlist-item-fav {
+    float:right;
+    display:inline;
+    text-align:right;
+    margin-right:10px;
+    font-weight:bold;
+    color:#666;
+}
+
+a.jp-playlist-item-fav:hover {
+    color:#0d88c1;
+}

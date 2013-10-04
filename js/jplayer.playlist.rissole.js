@@ -150,7 +150,8 @@
 				itemClass: "jp-playlist-item",
 				freeGroupClass: "jp-free-media",
 				freeItemClass: "jp-playlist-item-free",
-				removeItemClass: "jp-playlist-item-remove"
+				removeItemClass: "jp-playlist-item-remove",
+                favItemClass: "jp-playlist-item-fav"
 			}
 		},
 		option: function(option, value) { // For changing playlist options only
@@ -168,6 +169,7 @@
 				case "freeGroupClass":
 				case "freeItemClass":
 				case "removeItemClass":
+				case "favItemClass":
 					this._refresh(true); // Instant
 					this._createItemHandlers();
 					break;
@@ -234,6 +236,9 @@
 
 			// Create remove control
 			listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.removeItemClass + "'>&times;</a>";
+
+            // Add favourite control
+            listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.favItemClass + "'>&hearts;</a>";
 
 			// Create links to free media
 			if(media.free) {
