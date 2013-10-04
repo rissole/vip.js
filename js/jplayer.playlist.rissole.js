@@ -48,9 +48,8 @@
 		}, this._options, options); // Object: The jPlayer constructor options for this playlist and the playlist options
 
 		this.playlist = []; // Array of Objects: The current playlist displayed (Un-shuffled or Shuffled)
-		this.original = []; // Array of Objects: The original playlist
 
-		this._initPlaylist(playlist); // Copies playlist to this.original. Then mirrors this.original to this.playlist. Creating two arrays, where the element pointers match. (Enables pointer comparison.)
+		this._initPlaylist(playlist);
 
 		// Setup the css selectors for the extra interface items used by the playlist.
 		this.cssSelector.title = this.cssSelector.cssSelectorAncestor + " .jp-title"; // Note that the text is written to the decendant li node.
@@ -188,16 +187,7 @@
 			this.current = 0;
 			this.shuffled = false;
 			this.removing = false;
-			this.original = $.extend(true, [], playlist); // Copy the Array of Objects
-			this._originalPlaylist();
-		},
-		_originalPlaylist: function() {
-			var self = this;
-			this.playlist = [];
-			// Make both arrays point to the same object elements. Gives us 2 different arrays, each pointing to the same actual object. ie., Not copies of the object.
-			$.each(this.original, function(i) {
-				self.playlist[i] = self.original[i];
-			});
+			this.playlist = $.extend(true, [], playlist);
 		},
 		_refresh: function(instant) {
 			/* instant: Can be undefined, true or a function.
@@ -324,13 +314,12 @@
 		add: function(media, playNow) {
 			$(this.cssSelector.playlist + " ul").append(this._createListItem(media)).find("li:last-child").hide().slideDown(this.options.playlistOptions.addTime);
 			this._updateControls();
-			this.original.push(media);
 			this.playlist.push(media); // Both array elements share the same object pointer. Comforms with _initPlaylist(p) system.
 
 			if(playNow) {
 				this.play(this.playlist.length - 1);
 			} else {
-				if(this.original.length === 1) {
+				if(this.playlist.length === 1) {
 					this.select(0);
 				}
 			}
@@ -349,7 +338,7 @@
 				if(this.removing) {
 					return false;
 				} else {
-					index = (index < 0) ? self.original.length + index : index; // Negative index relates to end of array.
+					index = (index < 0) ? self.playlist.length + index : index; // Negative index relates to end of array.
 					if(0 <= index && index < this.playlist.length) {
 						this.removing = true;
 
@@ -358,21 +347,14 @@
 
 							if(self.shuffled) {
 								var item = self.playlist[index];
-								$.each(self.original, function(i) {
-									if(self.original[i] === item) {
-										self.original.splice(i, 1);
-										return false; // Exit $.each
-									}
-								});
 								self.playlist.splice(index, 1);
 							} else {
-								self.original.splice(index, 1);
 								self.playlist.splice(index, 1);
 							}
 
-							if(self.original.length) {
+							if(self.playlist.length) {
 								if(index === self.current) {
-									self.current = (index < self.original.length) ? self.current : self.original.length - 1; // To cope when last element being selected when it was removed
+									self.current = (index < self.playlist.length) ? self.current : self.playlist.length - 1; // To cope when last element being selected when it was removed
 									self.select(self.current);
 								} else if(index < self.current) {
 									self.current--;
@@ -392,7 +374,7 @@
 			}
 		},
 		select: function(index) {
-			index = (index < 0) ? this.original.length + index : index; // Negative index relates to end of array.
+			index = (index < 0) ? this.playlist.length + index : index; // Negative index relates to end of array.
 			if(0 <= index && index < this.playlist.length) {
 				this.current = index;
 				this._highlight(index);
@@ -406,7 +388,7 @@
             }, 1000);
 		},
 		play: function(index) {
-			index = (index < 0) ? this.original.length + index : index; // Negative index relates to end of array.
+			index = (index < 0) ? this.playlist.length + index : index; // Negative index relates to end of array.
 			if(0 <= index && index < this.playlist.length) {
 				if(this.playlist.length) {
 					this.select(index);
