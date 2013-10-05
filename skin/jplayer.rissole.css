@@ -31,19 +31,19 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav:hover, div.jp-type-p
 }
 
 a.jp-favourites {
-	background: url("jplayer.midnight.black.png") 0 -262px no-repeat;
+	background: url("jplayer.midnight.black.favourite.png") 0 -2px no-repeat;
 	margin-right: 5px;
 }
 
 a.jp-favourites:hover {
-	background: url("jplayer.midnight.black.png") -30px -262px no-repeat;
+	background: url("jplayer.midnight.black.favourite.png") -30px -2px no-repeat;
 }
 
 a.jp-favourites-off {
-	background: url("jplayer.midnight.black.png") -60px -262px no-repeat;
+	background: url("jplayer.midnight.black.favourite.png") -60px -2px no-repeat;
 	margin-right: 5px;
 }
 
 a.jp-favourites-off:hover {
-	background: url("jplayer.midnight.black.png") -90px -262px no-repeat;
+	background: url("jplayer.midnight.black.favourite.png") -90px -2px no-repeat;
 }
