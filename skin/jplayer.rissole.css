@@ -29,3 +29,21 @@ div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav {
 div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav:hover, div.jp-type-playlist div.jp-playlist a.jp-playlist-item-fav-on { 
     color:#0d88c1;
 }
+
+a.jp-favourites {
+	background: url("jplayer.midnight.black.png") 0 -262px no-repeat;
+	margin-right: 5px;
+}
+
+a.jp-favourites:hover {
+	background: url("jplayer.midnight.black.png") -30px -262px no-repeat;
+}
+
+a.jp-favourites-off {
+	background: url("jplayer.midnight.black.png") -60px -262px no-repeat;
+	margin-right: 5px;
+}
+
+a.jp-favourites-off:hover {
+	background: url("jplayer.midnight.black.png") -90px -262px no-repeat;
+}

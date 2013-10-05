@@ -50,8 +50,11 @@
 		this.playlist = []; // Array of Objects: The current playlist displayed (Un-shuffled or Shuffled)
 		this.shuffledIndices = []; // The shuffle ordering
         this.favourites = []; // List of 'Favourited' songs
+        this.favouritesActive = false; // Are we on favourites?
+        this.original = []; // The playlist we last did setPlaylist with
 
 		this._initPlaylist(playlist);
+        this._initOriginal(playlist);
 
 		// Setup the css selectors for the extra interface items used by the playlist.
 		this.cssSelector.title = this.cssSelector.cssSelectorAncestor + " .jp-title"; // Note that the text is written to the decendant li node.
@@ -60,6 +63,8 @@
 		this.cssSelector.previous = this.cssSelector.cssSelectorAncestor + " .jp-previous";
 		this.cssSelector.shuffle = this.cssSelector.cssSelectorAncestor + " .jp-shuffle";
 		this.cssSelector.shuffleOff = this.cssSelector.cssSelectorAncestor + " .jp-shuffle-off";
+        this.cssSelector.favourites = this.cssSelector.cssSelectorAncestor + " .jp-favourites";
+		this.cssSelector.favouritesOff = this.cssSelector.cssSelectorAncestor + " .jp-favourites-off";
 
 		// Override the cssSelectorAncestor given in options
 		this.options.cssSelectorAncestor = this.cssSelector.cssSelectorAncestor;
@@ -115,6 +120,15 @@
 		});
 		$(this.cssSelector.shuffleOff).click(function() {
 			self.shuffle(false);
+			return false;
+		}).hide();
+        
+        $(this.cssSelector.favourites).click(function() {
+			self.setFavouritePlaylist(true);
+			return false;
+		});
+		$(this.cssSelector.favouritesOff).click(function() {
+			self.setFavouritePlaylist(false);
 			return false;
 		}).hide();
 
@@ -179,20 +193,25 @@
 		},
 		_init: function() {
 			var self = this;
-			this._refresh(function() {
-				if(self.options.playlistOptions.autoPlay) {
-					self.play(self.current, true);
-				} else {
-					self.select(self.current, true);
-				}
-			});
+			this._refresh(true);
 		},
-		_initPlaylist: function(playlist) {
+        // copy: do we copy the playlist given before using it? default yes.
+		_initPlaylist: function(playlist,copy) {
 			this.current = 0;
-			this.shuffled = false;
 			this.removing = false;
-			this.playlist = $.extend(true, [], playlist);
+            this.shuffled = false;
+            if(copy || copy === undefined) {
+                this.playlist = $.extend(true, [], playlist);
+            } else {
+                this.playlist = playlist;
+            }
 		},
+        _initOriginal: function() {
+            var self = this;
+            $.each(this.playlist, function(i,v) {
+                self.original[i] = v;
+            });
+        },
 		_refresh: function(instant) {
 			/* instant: Can be undefined, true or a function.
 			 *	undefined -> use animation timings
@@ -239,7 +258,11 @@
 			listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.removeItemClass + "'>&times;</a>";
 
             // Add favourite control
-            listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.favItemClass + "'>&hearts;</a>";
+            if($.inArray(media, self.favourites) === -1) {
+                listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.favItemClass + "'>&hearts;</a>";
+            } else {
+                listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.favItemClass + " jp-playlist-item-fav-on" + "'>&hearts;</a>";
+            }
 
 			// Create links to free media
 			if(media.free) {
@@ -313,6 +336,13 @@
 				$(this.cssSelector.shuffleOff).hide();
 				$(this.cssSelector.shuffle).show();
 			}
+            if(this.favouritesActive) {
+				$(this.cssSelector.favouritesOff).show();
+				$(this.cssSelector.favourites).hide();
+			} else {
+				$(this.cssSelector.favouritesOff).hide();
+				$(this.cssSelector.favourites).show();
+			}
 		},
 		_highlight: function(index) {
 			if(this.playlist.length && index !== undefined) {
@@ -324,7 +354,6 @@
         _highlightFav: function(index, favourited) {
 			if(this.playlist.length && index !== undefined) {
 				var favElem = $(this.cssSelector.playlist + " li:nth-child(" + (index + 1) + ")").find(".jp-playlist-item-fav");
-                console.log(favElem);
                 if(favourited) {
                     favElem.addClass("jp-playlist-item-fav-on");
                 } else {
@@ -340,6 +369,7 @@
         },
 		setPlaylist: function(playlist) {
 			this._initPlaylist(playlist);
+            this._initOriginal();
 			this._init();
 		},
 		add: function(media, playNow) {
@@ -520,6 +550,25 @@
                     self.favourites.push(song);
                     self._highlightFav(index, true);
                 }
+            }
+            console.log(self.favourites);
+        },
+        setFavouritePlaylist: function(showFavourites) {
+            if(showFavourites === undefined) {
+                showFavourites = !this.favouritesActive;
+            }
+            
+            if(showFavourites && !this.favouritesActive) {
+                this.favouritesActive = showFavourites;
+                this._initPlaylist(this.favourites, false);
+                this._init();
+                this.shuffle(true,true);
+            }
+            else if(!showFavourites && this.favouritesActive) {
+                this.favouritesActive = showFavourites;
+                this._initPlaylist(this.original, false);
+                this._init();
+                this.shuffle(true,true);
             }
         }
 	};
