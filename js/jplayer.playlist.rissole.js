@@ -49,7 +49,15 @@
 
 		this.playlist = []; // Array of Objects: The current playlist displayed (Un-shuffled or Shuffled)
 		this.shuffledIndices = []; // The shuffle ordering
-        this.favourites = []; // List of 'Favourited' songs
+        this.FAVOURITES_STORE = new Persist.Store('vipjs-favs');
+        var favs = this.FAVOURITES_STORE.get('favs');
+        if (favs) {
+            this.favourites = JSON.parse(favs);
+            console.log('set favs from cookie');
+        }
+        else {
+            this.favourites = []; // List of 'Favourited' songs
+        }
         this.favouritesActive = false; // Are we on favourites?
         this.original = []; // The playlist we last did setPlaylist with
 
@@ -258,7 +266,7 @@
 			listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.removeItemClass + "'>&times;</a>";
 
             // Add favourite control
-            if($.inArray(media, self.favourites) === -1) {
+            if(self._inFavourites(media, self.favourites) == -1) {
                 listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.favItemClass + "'>&hearts;</a>";
             } else {
                 listItem += "<a href='javascript:;' class='" + this.options.playlistOptions.favItemClass + " jp-playlist-item-fav-on" + "'>&hearts;</a>";
@@ -539,7 +547,7 @@
             var self = this;
             var song = self.playlist[index];
 
-            var favIndex = $.inArray(song, self.favourites);
+            var favIndex = self._inFavourites(song, self.favourites);
 			if(favIndex > -1) {
                 if(!favourited) {
                     self.favourites.splice(favIndex, 1);
@@ -551,7 +559,8 @@
                     self._highlightFav(index, true);
                 }
             }
-            console.log(self.favourites);
+            this.FAVOURITES_STORE.set('favs', JSON.stringify(self.favourites));
+            console.log('saved favs to cookie');
         },
         setFavouritePlaylist: function(showFavourites) {
             if(showFavourites === undefined) {
@@ -570,6 +579,16 @@
                 this._init();
                 this.shuffle(true,true);
             }
+        },
+        _inFavourites: function(media) {
+            var found = -1;
+            $.each(this.favourites, function(i, m) {
+                if (media.title == m.title) {
+                    found = i;
+                    return;
+                }
+            });
+            return found;
         }
 	};
 })(jQuery);

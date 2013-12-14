@@ -4,13 +4,13 @@
 
 		<track>
 			<creator>Vidya Intarweb Playlist</creator>
-			<title>863 Tracks (Last Update: Sep 10 13)</title>
+			<title>869 Tracks (Last Update: Oct 28 13)</title>
 			<location>http://vip.aersia.net/mu/vip.m4a</location>
 		</track>
 
 		<track>
-			<creator>MOTD 8/4/12</creator>
-			<title>5600-2276-8291: Dream Code</title>
+			<creator>MOTD 10/28/13</creator>
+			<title>Let me show you my pokeymans.</title>
 			<location>http://vip.aersia.net/mu/rayman-stageclear.m4a</location>
 		</track>
 
@@ -174,6 +174,12 @@
 			<creator>Animal Crossing</creator>
 			<title>Mesmonium - KK Crusin' (True Remix)</title>
 			<location>http://vip.aersia.net/mu/animalcrossing-mesmonium-kkcrusin(trueremix).m4a</location>
+		</track>
+
+		<track>
+			<creator>Anna</creator>
+			<title>Could Have Been The Best Life</title>
+			<location>http://vip.aersia.net/mu/anna-couldhavebeenthebestlife.m4a</location>
 		</track>
 
 		<track>
@@ -687,6 +693,24 @@
 		</track>
 
 		<track>
+			<creator>Castlevania: The Dracula X Chronicles</creator>
+			<title>The Dawn</title>
+			<location>http://vip.aersia.net/mu/castlevaniadxc-dawn.m4a</location>
+		</track>
+
+		<track>
+			<creator>Castlevania: The Dracula X Chronicles</creator>
+			<title>Moon Fight</title>
+			<location>http://vip.aersia.net/mu/castlevaniadxc-moonfight.m4a</location>
+		</track>
+
+		<track>
+			<creator>Castlevania: The Dracula X Chronicles</creator>
+			<title>Red Dawn</title>
+			<location>http://vip.aersia.net/mu/castlevaniadxc-reddawn.m4a</location>
+		</track>
+
+		<track>
 			<creator>Castlevania: Harmony of Despair</creator>
 			<title>After Confession</title>
 			<location>http://vip.aersia.net/mu/castlevaniahod-afterconfession.m4a</location>
@@ -996,6 +1020,12 @@
 			<creator>Deus Ex</creator>
 			<title>Main Title</title>
 			<location>http://vip.aersia.net/mu/dx-maintitle.m4a</location>
+		</track>
+
+		<track>
+			<creator>Deus Ex</creator>
+			<title>nervous_testpilot - UNATCO Remix</title>
+			<location>http://vip.aersia.net/mu/dx-nervoustestpilot-unatcoremix.m4a</location>
 		</track>
 
 		<track>
@@ -1836,6 +1866,12 @@
 			<creator>Gravity Well</creator>
 			<title>Event Horizon</title>
 			<location>http://vip.aersia.net/mu/gravitywell-eventhorizon.m4a</location>
+		</track>
+
+		<track>
+			<creator>Grim Fandango</creator>
+			<title>Hi-Tone Fandango</title>
+			<location>http://vip.aersia.net/mu/grimfandango-hitonefandango.m4a</location>
 		</track>
 
 		<track>
@@ -4161,6 +4197,18 @@
 		</track>
 
 		<track>
+			<creator>S.T.A.L.K.E.R.: Clear Sky</creator>
+			<title>Bandit Radio</title>
+			<location>http://vip.aersia.net/mu/stalkercs-banditradio.m4a</location>
+		</track>
+
+		<track>
+			<creator>S.T.A.L.K.E.R.: Shadow of Chernobyl</creator>
+			<title>Predator</title>
+			<location>http://vip.aersia.net/mu/stalkersoc-predator.m4a</location>
+		</track>
+
+		<track>
 			<creator>StarCraft</creator>
 			<title>Terran Three</title>
 			<location>http://vip.aersia.net/mu/starcraft-terran3.m4a</location>
@@ -4797,6 +4845,36 @@
 		</track>
 
 		<track>
+			<creator>Umineko: When They Cry</creator>
+			<title>dreamenddischarger</title>
+			<location>http://vip.aersia.net/mu/whentheycry3-dreamenddischarger.m4a</location>
+		</track>
+
+		<track>
+			<creator>Umineko: When They Cry</creator>
+			<title>system0</title>
+			<location>http://vip.aersia.net/mu/whentheycry3-system0.m4a</location>
+		</track>
+
+		<track>
+			<creator>Umineko: When They Cry</creator>
+			<title>worldenddominator</title>
+			<location>http://vip.aersia.net/mu/whentheycry3-worldenddominator.m4a</location>
+		</track>
+
+		<track>
+			<creator>Umineko: When They Cry Breakdown</creator>
+			<title>liberatedliberater</title>
+			<location>http://vip.aersia.net/mu/whentheycry4-liberatedliberater.m4a</location>
+		</track>
+
+		<track>
+			<creator>Umineko: When They Cry Breakdown</creator>
+			<title>resurrectedreplayer</title>
+			<location>http://vip.aersia.net/mu/whentheycry4-resurrectedreplayer.m4a</location>
+		</track>
+
+		<track>
 			<creator>Unlimited Saga</creator>
 			<title>Levo Lution - Battle Theme 1</title>
 			<location>http://vip.aersia.net/mu/unlimitedsaga-levolution-battletheme1.m4a</location>
@@ -4914,36 +4992,6 @@
 			<creator>Warriors Orochi</creator>
 			<title>Theme of Lu Bu ~DW SW Mix~</title>
 			<location>http://vip.aersia.net/mu/warriorsorochi-themeoflubu.m4a</location>
-		</track>
-
-		<track>
-			<creator>When the Seagulls Cry</creator>
-			<title>dreamenddischarger</title>
-			<location>http://vip.aersia.net/mu/whentheycry3-dreamenddischarger.m4a</location>
-		</track>
-
-		<track>
-			<creator>When the Seagulls Cry</creator>
-			<title>system0</title>
-			<location>http://vip.aersia.net/mu/whentheycry3-system0.m4a</location>
-		</track>
-
-		<track>
-			<creator>When the Seagulls Cry</creator>
-			<title>worldenddominator</title>
-			<location>http://vip.aersia.net/mu/whentheycry3-worldenddominator.m4a</location>
-		</track>
-
-		<track>
-			<creator>When the Seagulls Cry Breakdown</creator>
-			<title>liberatedliberater</title>
-			<location>http://vip.aersia.net/mu/whentheycry4-liberatedliberater.m4a</location>
-		</track>
-
-		<track>
-			<creator>When the Seagulls Cry Breakdown</creator>
-			<title>resurrectedreplayer</title>
-			<location>http://vip.aersia.net/mu/whentheycry4-resurrectedreplayer.m4a</location>
 		</track>
 
 		<track>
