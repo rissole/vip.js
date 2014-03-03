@@ -4,13 +4,13 @@
 
 		<track>
 			<creator>Vidya Intarweb Playlist</creator>
-			<title>869 Tracks (Last Update: Oct 28 13)</title>
+			<title>900 Tracks (Last Update: Feb 11 14)</title>
 			<location>http://vip.aersia.net/mu/vip.m4a</location>
 		</track>
 
 		<track>
-			<creator>MOTD 10/28/13</creator>
-			<title>Let me show you my pokeymans.</title>
+			<creator>MOTD 12/18/13</creator>
+			<title>The VIP is 5 years old!!! :D</title>
 			<location>http://vip.aersia.net/mu/rayman-stageclear.m4a</location>
 		</track>
 
@@ -333,6 +333,24 @@
 		</track>
 
 		<track>
+			<creator>Attack of the Friday Monsters! A Tokyo Tale</creator>
+			<title>Fridays Are When The Monsters Appear-Ending Theme</title>
+			<location>http://vip.aersia.net/mu/attackfridaymonsters-endingtheme.m4a</location>
+		</track>
+
+		<track>
+			<creator>Attack of the Friday Monsters! A Tokyo Tale</creator>
+			<title>Fridays Are When The Monsters Appear-Main Theme</title>
+			<location>http://vip.aersia.net/mu/attackfridaymonsters-maintheme.m4a</location>
+		</track>
+
+		<track>
+			<creator>Attack of the Friday Monsters! A Tokyo Tale</creator>
+			<title>Playing Space</title>
+			<location>http://vip.aersia.net/mu/attackfridaymonsters-playingspace.m4a</location>
+		</track>
+
+		<track>
 			<creator>Baldur's Gate II: Shadows of Amn</creator>
 			<title>Main Theme</title>
 			<location>http://vip.aersia.net/mu/bg2soa-maintitle.m4a</location>
@@ -552,6 +570,30 @@
 			<creator>Braid</creator>
 			<title>Undercurrent</title>
 			<location>http://vip.aersia.net/mu/braid-undercurrent.m4a</location>
+		</track>
+
+		<track>
+			<creator>Bravely Default</creator>
+			<title>Prelude Moving Toward Hope</title>
+			<location>http://vip.aersia.net/mu/bravelydefault-preludemovingtowardhope.m4a</location>
+		</track>
+
+		<track>
+			<creator>Bravely Default</creator>
+			<title>Wicked Flight</title>
+			<location>http://vip.aersia.net/mu/bravelydefault-wickedflight.m4a</location>
+		</track>
+
+		<track>
+			<creator>Bravely Default</creator>
+			<title>You are My Hope</title>
+			<location>http://vip.aersia.net/mu/bravelydefault-youaremyhope.m4a</location>
+		</track>
+
+		<track>
+			<creator>Bravely Default</creator>
+			<title>Revo - Ballad Moving Toward Hope [Long Version]</title>
+			<location>http://vip.aersia.net/mu/bravelydefault-revo-balladmovingtowardhope(longver).m4a</location>
 		</track>
 
 		<track>
@@ -1227,6 +1269,30 @@
 		</track>
 
 		<track>
+			<creator>DUX</creator>
+			<title>Stage 3, Material Mine</title>
+			<location>http://vip.aersia.net/mu/dux-stage3.m4a</location>
+		</track>
+
+		<track>
+			<creator>DUX</creator>
+			<title>CJoe - Dynamite Disco Dux</title>
+			<location>http://vip.aersia.net/mu/dux-cjoe-dynamitediscodux.m4a</location>
+		</track>
+
+		<track>
+			<creator>DUX 1.5</creator>
+			<title>Credits</title>
+			<location>http://vip.aersia.net/mu/dux15-credits.m4a</location>
+		</track>
+
+		<track>
+			<creator>DUX 1.5</creator>
+			<title>Highscore</title>
+			<location>http://vip.aersia.net/mu/dux15-highscore.m4a</location>
+		</track>
+
+		<track>
 			<creator>Dynamite Headdy</creator>
 			<title>Escape Hero</title>
 			<location>http://vip.aersia.net/mu/dynamiteheaddy-escapehero.m4a</location>
@@ -1293,21 +1359,27 @@
 		</track>
 
 		<track>
-			<creator>Earthbound</creator>
+			<creator>EarthBound</creator>
 			<title>Boy Meets Girl</title>
 			<location>http://vip.aersia.net/mu/earthbound-boymeetsgirl.m4a</location>
 		</track>
 
 		<track>
-			<creator>Earthbound</creator>
+			<creator>EarthBound</creator>
 			<title>bLiNd - Snowbound</title>
 			<location>http://vip.aersia.net/mu/earthbound-blind-snowbound.m4a</location>
 		</track>
 
 		<track>
-			<creator>Earthbound</creator>
+			<creator>EarthBound</creator>
 			<title>Joshua Morse - The Ness Shot</title>
 			<location>http://vip.aersia.net/mu/earthbound-joshuamorse-nessshot.m4a</location>
+		</track>
+
+		<track>
+			<creator>EarthBound Zero</creator>
+			<title>Plasma3Music - Eight Melodies Orchestra Remix</title>
+			<location>http://vip.aersia.net/mu/earthbound0-plasma3music-8melodiesorchestraremix.m4a</location>
 		</track>
 
 		<track>
@@ -1695,6 +1767,12 @@
 		</track>
 
 		<track>
+			<creator>Funky Smugglers</creator>
+			<title>First Class Lounging</title>
+			<location>http://vip.aersia.net/mu/funkysmugglers-1stclasslounging.m4a</location>
+		</track>
+
+		<track>
 			<creator>Gabriel Knight 3</creator>
 			<title>Theme</title>
 			<location>http://vip.aersia.net/mu/gabrielknight3-theme.m4a</location>
@@ -2013,6 +2091,36 @@
 		</track>
 
 		<track>
+			<creator>Heaven Variant</creator>
+			<title>Mission Accepted</title>
+			<location>http://vip.aersia.net/mu/heavenvariant-missionaccepted.m4a</location>
+		</track>
+
+		<track>
+			<creator>Heaven Variant</creator>
+			<title>Storm Fleet Pursuit</title>
+			<location>http://vip.aersia.net/mu/heavenvariant-stormfleetpursuit.m4a</location>
+		</track>
+
+		<track>
+			<creator>Heaven Variant</creator>
+			<title>Two Dimensions</title>
+			<location>http://vip.aersia.net/mu/heavenvariant-2dimensions.m4a</location>
+		</track>
+
+		<track>
+			<creator>Heaven Variant</creator>
+			<title>Victory Lap</title>
+			<location>http://vip.aersia.net/mu/heavenvariant-victorylap.m4a</location>
+		</track>
+
+		<track>
+			<creator>Heroes of Might &amp; Magic IV</creator>
+			<title>Sea Theme</title>
+			<location>http://vip.aersia.net/mu/homm4-seatheme.m4a</location>
+		</track>
+
+		<track>
 			<creator>Hexyz Force</creator>
 			<title>Fight of Connection</title>
 			<location>http://vip.aersia.net/mu/hexyzforce-fightofconnection.m4a</location>
@@ -2028,12 +2136,6 @@
 			<creator>Hexyz Force</creator>
 			<title>Reason for Destruction</title>
 			<location>http://vip.aersia.net/mu/hexyzforce-reasonfordestruction.m4a</location>
-		</track>
-
-		<track>
-			<creator>Heroes of Might &amp; Magic IV</creator>
-			<title>Sea Theme</title>
-			<location>http://vip.aersia.net/mu/homm4-seatheme.m4a</location>
 		</track>
 
 		<track>
@@ -2182,7 +2284,7 @@
 
 		<track>
 			<creator>Jets'n'Guns</creator>
-			<title>Death From Above</title>
+			<title>Death From above</title>
 			<location>http://vip.aersia.net/mu/jng-deathfromabove.m4a</location>
 		</track>
 
@@ -2280,6 +2382,30 @@
 			<creator>The King of Fighters XIII</creator>
 			<title>Tame a Bad Boy (Kim Team)</title>
 			<location>http://vip.aersia.net/mu/kof13-tameabadboy.m4a</location>
+		</track>
+
+		<track>
+			<creator>Kingdom Hearts</creator>
+			<title>Hand in Hand</title>
+			<location>http://vip.aersia.net/mu/kingdomhearts-handinhand.m4a</location>
+		</track>
+
+		<track>
+			<creator>Kingdom Hearts</creator>
+			<title>Having a Wild Time</title>
+			<location>http://vip.aersia.net/mu/kingdomhearts-havingawildtime.m4a</location>
+		</track>
+
+		<track>
+			<creator>Kingdom Hearts</creator>
+			<title>Hikari -KINGDOM Orchestra Instrumental Version-</title>
+			<location>http://vip.aersia.net/mu/kingdomhearts-hikari(kingdomorchestrainstrumental).m4a</location>
+		</track>
+
+		<track>
+			<creator>Kingdom Hearts</creator>
+			<title>March Caprice for Piano and Orchestra</title>
+			<location>http://vip.aersia.net/mu/kingdomhearts-marchcapriceforpianoandorchestra.m4a</location>
 		</track>
 
 		<track>
@@ -3213,6 +3339,30 @@
 		</track>
 
 		<track>
+			<creator>NiGHTS: Journey of Dreams</creator>
+			<title>Crystal Choir</title>
+			<location>http://vip.aersia.net/mu/nightsjourneyofdreams-crystalchoir.m4a</location>
+		</track>
+
+		<track>
+			<creator>NiGHTS: Journey of Dreams</creator>
+			<title>NiGHTS and Reala : Theme of a Tragedic Revenge</title>
+			<location>http://vip.aersia.net/mu/nightsjourneyofdreams-nightsreala(themeofatragedicrevenge).m4a</location>
+		</track>
+
+		<track>
+			<creator>NiGHTS: Journey of Dreams</creator>
+			<title>Sweeping Seashore</title>
+			<location>http://vip.aersia.net/mu/nightsjourneyofdreams-sweepingseashore.m4a</location>
+		</track>
+
+		<track>
+			<creator>NiGHTS: Journey of Dreams</creator>
+			<title>Wandering Wildness</title>
+			<location>http://vip.aersia.net/mu/nightsjourneyofdreams-wanderingwildness.m4a</location>
+		</track>
+
+		<track>
 			<creator>The Ninja Warriors</creator>
 			<title>Dubmood - Ninja Starts School</title>
 			<location>http://vip.aersia.net/mu/ninjawarriors-dubmood-ninjastartsschool.m4a</location>
@@ -3549,6 +3699,30 @@
 		</track>
 
 		<track>
+			<creator>Redux: Dark Matters</creator>
+			<title>Boss</title>
+			<location>http://vip.aersia.net/mu/redux-boss.m4a</location>
+		</track>
+
+		<track>
+			<creator>Redux: Dark Matters</creator>
+			<title>Stage 1 Shooting Robots in Space</title>
+			<location>http://vip.aersia.net/mu/redux-stage1.m4a</location>
+		</track>
+
+		<track>
+			<creator>Redux: Dark Matters</creator>
+			<title>Stage 5 Alien Terror</title>
+			<location>http://vip.aersia.net/mu/redux-stage5.m4a</location>
+		</track>
+
+		<track>
+			<creator>Redux: Dark Matters</creator>
+			<title>Title</title>
+			<location>http://vip.aersia.net/mu/redux-title.m4a</location>
+		</track>
+
+		<track>
 			<creator>Resonance of Fate</creator>
 			<title>Gran Idee Mines [B]</title>
 			<location>http://vip.aersia.net/mu/resonanceoffate-granideeminesb.m4a</location>
@@ -3612,6 +3786,12 @@
 			<creator>Rochard</creator>
 			<title>Space Debris (Spacesynth Remix)</title>
 			<location>http://vip.aersia.net/mu/rochard-spacedebris(spacesynthremix).m4a</location>
+		</track>
+
+		<track>
+			<creator>Rocketbirds</creator>
+			<title>Illuminate</title>
+			<location>http://vip.aersia.net/mu/rocketbirds-illuminate.m4a</location>
 		</track>
 
 		<track>
@@ -4128,6 +4308,12 @@
 			<creator>Sonic the Hedgehog 3</creator>
 			<title>Aurium - Ice Cap Zone (Dance Remix)</title>
 			<location>http://vip.aersia.net/mu/sonic3-aurium-icecapzone(danceremix).m4a</location>
+		</track>
+
+		<track>
+			<creator>Sonic the Hedgehog 3</creator>
+			<title>Aviators - What We Left Behind</title>
+			<location>http://vip.aersia.net/mu/sonic3-aviators-whatweleftbehind.m4a</location>
 		</track>
 
 		<track>
@@ -5254,7 +5440,7 @@
 
 		<track>
 			<creator>All Tracks</creator>
-			<title>&amp;#8471; Their Respective Owners</title>
+			<title>&copy; &amp; &#8471; Their Respective Owners</title>
 			<location>http://vip.aersia.net/mu/segarallychampionship-gameoveryeah.m4a</location>
 		</track>
 
