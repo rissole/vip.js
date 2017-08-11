@@ -8,8 +8,10 @@ The skin used is [Midnight Black](https://github.com/TheInfection/Midnight-Black
 This is not much more than a JPlayer playlist populated with song data from vip's [roster.xml](http://vip.aersia.net/roster.xml). Extra things I've done are:
 
 * The styling in index.html to make the controls fixed position.
-* Some changes in roster.xml, namely replacing "&" with "&amp;amp" to make it well-formed.
 * Changed the shuffling behaviour of JPlayer playlist extension to match vip.swf's.
 * Added a Favourites system.
 
-Additionally, the vip audio files are **m4a format** which **do not play on Firefox.** It should work on mobile devices though.
+# Album art
+A whole bunch of album art was obtained for these songs for your use! They can be downloaded from [Dropbox](https://www.dropbox.com/sh/2dzhh325gq02wbv/AAAcyr3HK1OFgEkEiObzRPKga?dl=0).
+
+These album art images were downloaded programmatically (see to_mp3.py) and are not 100% correct, but they should be good start. The program just Googled for `"<game name>" soundtrack` and looked for relevant and square images.
