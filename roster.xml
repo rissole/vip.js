@@ -4,13 +4,13 @@
 
 		<track>
 			<creator>Vidya Intarweb Playlist</creator>
-			<title>999 Tracks (Last Update: Apr 1 15)</title>
+			<title>1115 Tracks (Last Update: Dec 18 16)</title>
 			<location>http://vip.aersia.net/mu/vip.m4a</location>
 		</track>
 
 		<track>
-			<creator>MOTD 12/18/14</creator>
-			<title>6 years old!</title>
+			<creator>MOTD 12/18/16</creator>
+			<title>8 years strong!</title>
 			<location>http://vip.aersia.net/mu/rayman-stageclear.m4a</location>
 		</track>
 
@@ -120,6 +120,12 @@
 			<creator>ActRaiser</creator>
 			<title>Shinsei Nihon Symphony Orchestra - Filmoa</title>
 			<location>http://vip.aersia.net/mu/actraiser-shinseinihonsymphony-filmoa.m4a</location>
+		</track>
+		
+		<track>
+			<creator>ActRaiser</creator>
+			<title>Yes Mayhem - Northwall</title>
+			<location>http://vip.aersia.net/mu/actraiser-yesmayhem-northwall.m4a</location>
 		</track>
 
 		<track>
@@ -384,6 +390,12 @@
 			<creator>Baldur's Gate II: Shadows of Amn</creator>
 			<title>Main Theme</title>
 			<location>http://vip.aersia.net/mu/bg2soa-maintitle.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Balloon Fight</creator>
+			<title>Chip Tanaka/Acerola Beach - Dedicated to Satoru Iwata</title>
+			<location>http://vip.aersia.net/mu/balloonfight-chiptanaka-dedicatedtosatoruiwata.m4a</location>
 		</track>
 
 		<track>
@@ -889,6 +901,12 @@
 			<title>The Tragic Prince</title>
 			<location>http://vip.aersia.net/mu/castlevaniasotn-tragicprince.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Castlevania: Symphony of the Night</creator>
+			<title>(M+), Lauren the Flute, PokéMatt - El Lienzo Perdido</title>
+			<location>http://vip.aersia.net/mu/castlevaniasotn-m,laurentheflute-ellienzoperdido.m4a</location>
+		</track>
 
 		<track>
 			<creator>Catherine</creator>
@@ -1023,15 +1041,39 @@
 		</track>
 
 		<track>
-			<creator>Civilization 3</creator>
+			<creator>Civilization III</creator>
 			<title>Stars Full</title>
 			<location>http://vip.aersia.net/mu/civ3-starsfull.m4a</location>
 		</track>
 
 		<track>
-			<creator>Civilization 4</creator>
+			<creator>Civilization IV</creator>
 			<title>Baba Yetu</title>
 			<location>http://vip.aersia.net/mu/civ4-babayetu.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Civilization VI</creator>
+			<title>Sogno di Volare ("The Dream of Flight")</title>
+			<location>http://vip.aersia.net/mu/civ6-sognodivolare.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Cladun: This is an RPG</creator>
+			<title>Battlefield</title>
+			<location>http://vip.aersia.net/mu/cladun-battlefield.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Cladun: This is an RPG</creator>
+			<title>Slicing the Wind</title>
+			<location>http://vip.aersia.net/mu/cladun-slicingthewind.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Cladun: This is an RPG</creator>
+			<title>Water that Connects Life</title>
+			<location>http://vip.aersia.net/mu/cladun-waterthatconnectslife.m4a</location>
 		</track>
 
 		<track>
@@ -1141,6 +1183,30 @@
 			<title>DM Ashura - NeoMAX (Full Version)</title>
 			<location>http://vip.aersia.net/mu/ddr-dmashura-neomax(fullversion).m4a</location>
 		</track>
+		
+		<track>
+			<creator>Dark Souls</creator>
+			<title>Alex Roe - E.S. Gwyn</title>
+			<location>http://vip.aersia.net/mu/darksouls-alexroe-esgwyn.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Dark Souls</creator>
+			<title>Alex Roe - I Had A Name</title>
+			<location>http://vip.aersia.net/mu/darksouls-alexroe-ihadaname.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Dark Souls</creator>
+			<title>SongeLeReveur - Ornstein &amp; Smough</title>
+			<location>http://vip.aersia.net/mu/darksouls-songelereveur-ornstein&amp;smough.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Dark Souls II</creator>
+			<title>Alex Roe - Like A Dream</title>
+			<location>http://vip.aersia.net/mu/darksouls2-alexroe-likeadream.m4a</location>
+		</track>
 
 		<track>
 			<creator>The Dark Spire</creator>
@@ -1195,11 +1261,35 @@
 			<title>The Funky Blob (Funky)</title>
 			<location>http://vip.aersia.net/mu/deblob-funkyblob.m4a</location>
 		</track>
+		
+		<track>
+			<creator>de Blob</creator>
+			<title>Raydian Day (Unstoppable)</title>
+			<location>http://vip.aersia.net/mu/deblob-raydianday.m4a</location>
+		</track>
+		
+		<track>
+			<creator>de Blob</creator>
+			<title>Splashback (Defiant)</title>
+			<location>http://vip.aersia.net/mu/deblob-splashback.m4a</location>
+		</track>
+		
+		<track>
+			<creator>de Blob 2</creator>
+			<title>The Roll &amp; Bounce</title>
+			<location>http://vip.aersia.net/mu/deblob2-roll&amp;bounce.m4a</location>
+		</track>
 
 		<track>
 			<creator>Demon's Souls</creator>
 			<title>One Who Craves Souls</title>
 			<location>http://vip.aersia.net/mu/demonssouls-1whocravessouls.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Demon's Souls</creator>
+			<title>Alex Roe - Epitaph for Boletaria</title>
+			<location>http://vip.aersia.net/mu/demonssouls-epitaphforboletaria.m4a</location>
 		</track>
 
 		<track>
@@ -1243,6 +1333,24 @@
 			<title>Artificial Fear - Tristram (Metal Version)</title>
 			<location>http://vip.aersia.net/mu/diablo-artificialfear-tristram(metal).m4a</location>
 		</track>
+		
+		<track>
+			<creator>Diddy Kong Racing</creator>
+			<title>Benjamin Briggs - Dinosaur Diddy (Ancient Lake)</title>
+			<location>http://vip.aersia.net/mu/diddykongracing-benjaminbriggs-dinosaurdiddy.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Diddy Kong Racing</creator>
+			<title>Benjamin Briggs - Hi There! (Lobby)</title>
+			<location>http://vip.aersia.net/mu/diddykongracing-benjaminbriggs-hithere.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Diddy Kong Racing</creator>
+			<title>Benjamin Briggs - Royal Rumble (Boss Race)</title>
+			<location>http://vip.aersia.net/mu/diddykongracing-benjaminbriggs-royalrumble.m4a</location>
+		</track>
 
 		<track>
 			<creator>Disaster: Day of Crisis</creator>
@@ -1255,6 +1363,12 @@
 			<title>Honor for All</title>
 			<location>http://vip.aersia.net/mu/dishonored-honorforall.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Divine Divinity</creator>
+			<title>Kirill Pokrovsky - Divine Divinity Main Theme (Piano Version)</title>
+			<location>http://vip.aersia.net/mu/divinedivinity-kirillpokrovsky-maintheme(pianover).m4a</location>
+		</track>
 
 		<track>
 			<creator>Divinity II: Ego Draconis</creator>
@@ -1266,6 +1380,42 @@
 			<creator>Divinity II: Ego Draconis</creator>
 			<title>Sentry Island</title>
 			<location>http://vip.aersia.net/mu/divinity2ed-sentryisland.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Divinity: Dragon Commander</creator>
+			<title>For The Hand Of A Princess</title>
+			<location>http://vip.aersia.net/mu/divinitydc-forthehandofaprincess.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Divinity: Dragon Commander</creator>
+			<title>The Board Is Set</title>
+			<location>http://vip.aersia.net/mu/divinitydc-boardisset.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Divinity: Dragon Commander</creator>
+			<title>Watching The Clouds</title>
+			<location>http://vip.aersia.net/mu/divinitydc-watchingtheclouds.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Divinity: Original Sin</creator>
+			<title>Beyond the Waves of Time</title>
+			<location>http://vip.aersia.net/mu/divinityos-beyondthewavesoftime.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Divinity: Original Sin</creator>
+			<title>Memories of the Future</title>
+			<location>http://vip.aersia.net/mu/divinityos-memoriesofthefuture.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Divinity: Original Sin</creator>
+			<title>Power of Innocence</title>
+			<location>http://vip.aersia.net/mu/divinityos-powerofinnocence.m4a</location>
 		</track>
 
 		<track>
@@ -1303,11 +1453,29 @@
 			<title>Main Title</title>
 			<location>http://vip.aersia.net/mu/dominionsog3-maintitle.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Donkey Kong: Barrel Blast</creator>
+			<title>Mutherpluckin’ B - Alpine Peak (After Ski Party)</title>
+			<location>http://vip.aersia.net/mu/dkbb-mutherpluckinb-alpinepeak.m4a</location>
+		</track>
 
 		<track>
 			<creator>Donkey Kong Country</creator>
 			<title>CrimzonWolf777 - Fear Factory 2009</title>
 			<location>http://vip.aersia.net/mu/dkc-crimzonwolf777-fearfactory2009.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Donkey Kong Country</creator>
+			<title>The OneUps - Ice Cave Enchantment</title>
+			<location>http://vip.aersia.net/mu/dkc-1ups-icecaveenchantment.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Donkey Kong Country 2: Diddy's Kong Quest</creator>
+			<title>Famicom Guitar - Super Donkey Kong 2</title>
+			<location>http://vip.aersia.net/mu/dkc2-famicomguitar-superdonkeykong2.m4a</location>
 		</track>
 
 		<track>
@@ -1317,25 +1485,25 @@
 		</track>
 
 		<track>
-			<creator>Donkey Kong Country Tropical Freeze</creator>
+			<creator>Donkey Kong Country: Tropical Freeze</creator>
 			<title>Scorch 'n' Torch</title>
 			<location>http://vip.aersia.net/mu/dkctr-scorchntorch.m4a</location>
 		</track>
 
 		<track>
-			<creator>Donkey Kong Country Tropical Freeze</creator>
+			<creator>Donkey Kong Country: Tropical Freeze</creator>
 			<title>Seashore War</title>
 			<location>http://vip.aersia.net/mu/dkctr-seashorewar.m4a</location>
 		</track>
 
 		<track>
-			<creator>Donkey Kong Country Tropical Freeze</creator>
+			<creator>Donkey Kong Country: Tropical Freeze</creator>
 			<title>Windmill Hills</title>
 			<location>http://vip.aersia.net/mu/dkctr-windmillhills.m4a</location>
 		</track>
 
 		<track>
-			<creator>Donkey Kong Country Tropical Freeze</creator>
+			<creator>Donkey Kong Country: Tropical Freeze</creator>
 			<title>Wing Ding</title>
 			<location>http://vip.aersia.net/mu/dkctr-wingding.m4a</location>
 		</track>
@@ -1555,6 +1723,24 @@
 			<title>Joshua Morse - The Ness Shot</title>
 			<location>http://vip.aersia.net/mu/earthbound-joshuamorse-nessshot.m4a</location>
 		</track>
+		
+		<track>
+			<creator>EarthBound</creator>
+			<title>Keiichi Suzuki, Hirokazu Tanaka - Smiles and Tears (Demo Track)</title>
+			<location>http://vip.aersia.net/mu/earthbound-keiichisuzuki-smiles&amp;tears(demotrack).m4a</location>
+		</track>
+		
+		<track>
+			<creator>EarthBound</creator>
+			<title>SongeLeReveur - Home Sweet Home</title>
+			<location>http://vip.aersia.net/mu/earthbound-songelereveur-homesweethome.m4a</location>
+		</track>
+		
+		<track>
+			<creator>EarthBound Zero</creator>
+			<title>Catherine Warwick - Wisdom of the World</title>
+			<location>http://vip.aersia.net/mu/earthbound0-catherinewarwick-wisdomoftheworld.m4a</location>
+		</track>
 
 		<track>
 			<creator>EarthBound Zero</creator>
@@ -1729,6 +1915,24 @@
 			<title>The Highland Wanderer</title>
 			<location>http://vip.aersia.net/mu/eu3-highlandwanderer.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Europa Universalis IV</creator>
+			<title>Tobias Gustafsson - Commerce in the Peninsula (Guns, Drums and Steel remix)</title>
+			<location>http://vip.aersia.net/mu/eu4-tobiasgustafsson-commerceinthepeninsula(remix).m4a</location>
+		</track>
+		
+		<track>
+			<creator>Europa Universalis IV</creator>
+			<title>Tobias Gustafsson - My Kingdom (Guns, Drums and Steel remix)</title>
+			<location>http://vip.aersia.net/mu/eu4-tobiasgustafsson-mykingdom(remix).m4a</location>
+		</track>
+		
+		<track>
+			<creator>Europa Universalis IV</creator>
+			<title>Tobias Gustafsson - The Voyage-Maintheme (Guns, Drums and Steel remix)</title>
+			<location>http://vip.aersia.net/mu/eu4-tobiasgustafsson-voyage(remix).m4a</location>
+		</track>
 
 		<track>
 			<creator>F-Zero X</creator>
@@ -1800,6 +2004,12 @@
 			<creator>Final Fantasy III</creator>
 			<title>Meine Meinung - Eternal Wind</title>
 			<location>http://vip.aersia.net/mu/ff3-meinemeinung-eternalwind.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Final Fantasy IV</creator>
+			<title>Maire Bhreatnach - Troian Beauty</title>
+			<location>http://vip.aersia.net/mu/ff4-mairebhreatnach-troianbeauty.m4a</location>
 		</track>
 
 		<track>
@@ -1957,6 +2167,12 @@
 			<title>Tutorial</title>
 			<location>http://vip.aersia.net/mu/fft-tutorial.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Final Fantasy Tactics Advance</creator>
+			<title>The World Is Square - Snow Dancing in the Schoolyard</title>
+			<location>http://vip.aersia.net/mu/ffta-worldissquare-snowdancingintheschoolyard.m4a</location>
+		</track>
 
 		<track>
 			<creator>Fittest</creator>
@@ -2047,6 +2263,30 @@
 			<title>Zuntata - The end of 1996 H.K.</title>
 			<location>http://vip.aersia.net/mu/gamera2000-zuntata-endof1996hk.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Ganbare Goemon</creator>
+			<title>Spunky Female Ninja</title>
+			<location>http://vip.aersia.net/mu/ganbaregoemon-spunkyfemaleninja.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ganbare Goemon</creator>
+			<title>Travel in Style</title>
+			<location>http://vip.aersia.net/mu/ganbaregoemon-travelinstyle.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ganbare Goemon Kirakira Douchuu: Boku ga Dancer ni Natta Riyuu</creator>
+			<title>Kentarou Chabo - Staff Roll Cover</title>
+			<location>http://vip.aersia.net/mu/ganbaregoemon4-kentarouchabo-staffrollcover.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ganbare Goemon Kirakira Douchuu: Boku ga Dancer ni Natta Riyuu</creator>
+			<title>Water Moon Forest</title>
+			<location>http://vip.aersia.net/mu/ganbaregoemon4-watermoonforest.m4a</location>
+		</track>
 
 		<track>
 			<creator>Gate of Thunder</creator>
@@ -2083,6 +2323,12 @@
 			<title>Story Begin</title>
 			<location>http://vip.aersia.net/mu/gleylancer-storybegin.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Globulous</creator>
+			<title>Snow Delta</title>
+			<location>http://vip.aersia.net/mu/globulous-snowdelta.m4a</location>
+		</track>
 
 		<track>
 			<creator>God Hand</creator>
@@ -2106,6 +2352,18 @@
 			<creator>Gods Eater Burst</creator>
 			<title>Tearing up a Storm</title>
 			<location>http://vip.aersia.net/mu/godseaterburst-tearingupastorm.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Goemon's Great Adventure</creator>
+			<title>Re-Seeing!</title>
+			<location>http://vip.aersia.net/mu/goemonsgreatadventure-reseeing.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Goemon's Great Adventure</creator>
+			<title>Sweet Tasty Delicious Water</title>
+			<location>http://vip.aersia.net/mu/goemonsgreatadventure-sweettastydeliciouswater.m4a</location>
 		</track>
 
 		<track>
@@ -2455,6 +2713,12 @@
 			<title>Sexualizer</title>
 			<location>http://vip.aersia.net/mu/hotlinemiami2-sexualizer.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Ice Climber</creator>
+			<title>Famicom Guitar - Ice Climber</title>
+			<location>http://vip.aersia.net/mu/iceclimber-famicomguitar-iceclimber.m4a</location>
+		</track>
 
 		<track>
 			<creator>ICO</creator>
@@ -2479,17 +2743,35 @@
 			<title>Tor</title>
 			<location>http://vip.aersia.net/mu/iji-tor.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Ikaruga</creator>
+			<title>Chapter 01 (Ideal)</title>
+			<location>http://vip.aersia.net/mu/ikaruga-chapter1.m4a</location>
+		</track>
 
 		<track>
 			<creator>Ikaruga</creator>
 			<title>Chapter 04 (Reality)</title>
-			<location>http://vip.aersia.net/mu/ikaruga-chapter4(reality).m4a</location>
+			<location>http://vip.aersia.net/mu/ikaruga-chapter4.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ikaruga</creator>
+			<title>Final Chapter (Metempsychosis)</title>
+			<location>http://vip.aersia.net/mu/ikaruga-finalchapter.m4a</location>
 		</track>
 
 		<track>
 			<creator>Illusion City</creator>
 			<title>Illusion Theme A</title>
 			<location>http://vip.aersia.net/mu/illusioncity-illusionthemea.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Implosion-Never Lose Hope</creator>
+			<title>Way in the Dark</title>
+			<location>http://vip.aersia.net/mu/implosionnlh-wayinthedark.m4a</location>
 		</track>
 
 		<track>
@@ -2724,6 +3006,30 @@
 			<creator>Kirby's Dream Land</creator>
 			<title>Green Greens</title>
 			<location>http://vip.aersia.net/mu/kirbysdreamland-greengreens.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Kirby's Epic Yarn</creator>
+			<title>Fountain Gardens</title>
+			<location>http://vip.aersia.net/mu/kirbysepicyarn-fountaingardens.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Kirby's Epic Yarn</creator>
+			<title>Rainbow Falls ~ Sweets Park</title>
+			<location>http://vip.aersia.net/mu/kirbysepicyarn-rainbowfallssweetspark.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Kirby's Epic Yarn</creator>
+			<title>Staff Roll</title>
+			<location>http://vip.aersia.net/mu/kirbysepicyarn-staffroll.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Kirby's Epic Yarn</creator>
+			<title>Tempest Towers ["Butter Building" from Kirby's Adventure]</title>
+			<location>http://vip.aersia.net/mu/kirbysepicyarn-tempesttowers.m4a</location>
 		</track>
 
 		<track>
@@ -3019,6 +3325,12 @@
 			<title>SoCoM: Devoured Soul</title>
 			<location>http://vip.aersia.net/mu/lawc-socom.m4a</location>
 		</track>
+		
+		<track>
+			<creator>LittleBigPlanet 3</creator>
+			<title>Tetracase, Smooth McGroove - Secret Gardens</title>
+			<location>http://vip.aersia.net/mu/lbp3-tetracase-secretgardens.m4a</location>
+		</track>
 
 		<track>
 			<creator>Live A Live</creator>
@@ -3072,6 +3384,24 @@
 			<creator>Lost Odyssey</creator>
 			<title>Roar of the Departed Souls</title>
 			<location>http://vip.aersia.net/mu/lostodyssey-roarofthedepartedsouls.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Lovely Planet</creator>
+			<title>Lovely City</title>
+			<location>http://vip.aersia.net/mu/lovelyplanet-lovelycity.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Lovely Planet</creator>
+			<title>Lovely Forest</title>
+			<location>http://vip.aersia.net/mu/lovelyplanet-lovelyforest.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Lovely Planet</creator>
+			<title>Lovely Mountains</title>
+			<location>http://vip.aersia.net/mu/lovelyplanet-lovelymountains.m4a</location>
 		</track>
 
 		<track>
@@ -3265,6 +3595,12 @@
 			<title>Capcom Sound Team - Cossack Stages 2</title>
 			<location>http://vip.aersia.net/mu/megaman4-capcomsoundteam-cossackstages2.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Mega Man 4</creator>
+			<title>Famicom Guitar - Rockman 4</title>
+			<location>http://vip.aersia.net/mu/megaman4-famicomguitar-rockman4.m4a</location>
+		</track>
 
 		<track>
 			<creator>Mega Man 5</creator>
@@ -3295,6 +3631,12 @@
 			<title>Azell - Splash Woman Stage</title>
 			<location>http://vip.aersia.net/mu/megaman9-azell-splashwomanstage.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Mega Man 10</creator>
+			<title>Flying Knee - Kill Chill</title>
+			<location>http://vip.aersia.net/mu/megaman10-flyingknee-killchill.m4a</location>
+		</track>
 
 		<track>
 			<creator>Mega Man X</creator>
@@ -3306,6 +3648,12 @@
 			<creator>Mega Man X</creator>
 			<title>Benjamin Briggs - Beetle Brawl</title>
 			<location>http://vip.aersia.net/mu/megamanx-benjaminbriggs-beetlebrawl.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Mega Man X</creator>
+			<title>Dj CUTMAN, Smooth McGroove - Spark Mandrill</title>
+			<location>http://vip.aersia.net/mu/megamanx-djcutman-sparkmandrill.m4a</location>
 		</track>
 
 		<track>
@@ -3427,11 +3775,89 @@
 			<title>Desperate Chase</title>
 			<location>http://vip.aersia.net/mu/mgs4-desperatechase.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Metal Slug</creator>
+			<title>Final Production 2P</title>
+			<location>http://vip.aersia.net/mu/metalslug-finalproduction2p.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 3</creator>
+			<title>Into the Cosmos (The Void of Space)</title>
+			<location>http://vip.aersia.net/mu/metalslug3-intothecosmos.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 3D</creator>
+			<title>New Plot (Opening Movie)</title>
+			<location>http://vip.aersia.net/mu/metalslug3d-newplot.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 3D</creator>
+			<title>The South Pole (Stage 09 -Antarctic-)</title>
+			<location>http://vip.aersia.net/mu/metalslug3d-southpole.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 3D</creator>
+			<title>Start from Mountain Village (Stage 01 -Mountain Village-)</title>
+			<location>http://vip.aersia.net/mu/metalslug3d-startfrommountainvillage.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 4</creator>
+			<title>End to the War (Staff Roll)</title>
+			<location>http://vip.aersia.net/mu/metalslug4-endtothewar.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 4</creator>
+			<title>Let's Run Through! (Stage 1 ~ City)</title>
+			<location>http://vip.aersia.net/mu/metalslug4-letsrunthrough.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 4</creator>
+			<title>Snowy Road (Stage 3 ~ Snowy Mountain)</title>
+			<location>http://vip.aersia.net/mu/metalslug4-snowyroad.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 5</creator>
+			<title>Final Attack (Final Boss Fight)</title>
+			<location>http://vip.aersia.net/mu/metalslug5-finalattack.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 5</creator>
+			<title>Intrigue (Stage 3)</title>
+			<location>http://vip.aersia.net/mu/metalslug5-intrigue.m4a</location>
+		</track>
 
 		<track>
 			<creator>Metal Slug 5</creator>
 			<title>SPEEDER (Stage 5-1)</title>
 			<location>http://vip.aersia.net/mu/metalslug5-speeder.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 6</creator>
+			<title>Aim High Chase Fast (Mission 4-2)</title>
+			<location>http://vip.aersia.net/mu/metalslug6-aimhighchasefast.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug 6</creator>
+			<title>Main Theme from MS6 (Mission 1-1)</title>
+			<location>http://vip.aersia.net/mu/metalslug6-maintheme.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Metal Slug X</creator>
+			<title>MS_X Ending (End Roll)</title>
+			<location>http://vip.aersia.net/mu/metalslugx-msxending.m4a</location>
 		</track>
 
 		<track>
@@ -3619,6 +4045,24 @@
 			<title>G-Land</title>
 			<location>http://vip.aersia.net/mu/mutantmudds-gland.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Mystical Ninja Starring Goemon</creator>
+			<title>Burning My Soul</title>
+			<location>http://vip.aersia.net/mu/mysticalninja-burningmysoul.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Mystical Ninja Starring Goemon</creator>
+			<title>The Great Rescue Mission for the Feudal Lord! (Transformed Oedo Castle)</title>
+			<location>http://vip.aersia.net/mu/mysticalninja-greatrescuemissionforthefeudallord.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Mystical Ninja Starring Goemon</creator>
+			<title>Goemon Production Committee - We Did It, Bravo, Not a Single Cloud on Japan's Sky (Staff Roll-Arrange Version)</title>
+			<location>http://vip.aersia.net/mu/mysticalninja-goemonproductioncommittee-wediditbravonotasinglecloudonjapanssky(arrange).m4a</location>
+		</track>
 
 		<track>
 			<creator>Namco x Capcom</creator>
@@ -3720,6 +4164,12 @@
 			<creator>NiGHTS: Journey of Dreams</creator>
 			<title>Wandering Wildness</title>
 			<location>http://vip.aersia.net/mu/nightsjourneyofdreams-wanderingwildness.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ninja Gaiden</creator>
+			<title>Famicom Guitar - Ninja Ryukenden</title>
+			<location>http://vip.aersia.net/mu/ninjagaiden-famicomguitar-ninjaryukenden.m4a</location>
 		</track>
 
 		<track>
@@ -3823,6 +4273,24 @@
 			<title>A Walk in the Sea</title>
 			<location>http://vip.aersia.net/mu/opoona-walkinthesea.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Ori and the Blind Forest</creator>
+			<title>Completing the Circle (feat. Rachel Mellis)</title>
+			<location>http://vip.aersia.net/mu/oriandtheblindforest-completingthecircle.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ori and the Blind Forest</creator>
+			<title>Fleeing Kuro</title>
+			<location>http://vip.aersia.net/mu/oriandtheblindforest-fleeingkuro.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Ori and the Blind Forest</creator>
+			<title>Light of Nibel (feat. Aeralie Brighton)</title>
+			<location>http://vip.aersia.net/mu/oriandtheblindforest-lightofnibel.m4a</location>
+		</track>
 
 		<track>
 			<creator>OutRun 2</creator>
@@ -3864,6 +4332,12 @@
 			<creator>Perfect Dark</creator>
 			<title>ParagonX9 - ExtractionXx</title>
 			<location>http://vip.aersia.net/mu/perfectdark-paragonx9-extractionxx.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Persona 3</creator>
+			<title>Ailsean, Nikolai - Winter in Iwatodai</title>
+			<location>http://vip.aersia.net/mu/persona3-ailsean,nikolai-winteriniwatodai.m4a</location>
 		</track>
 
 		<track>
@@ -3937,6 +4411,12 @@
 			<title>Farewell</title>
 			<location>http://vip.aersia.net/mu/pokemonbw-farewell.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Pokemon Gold/Silver/Crystal</creator>
+			<title>insaneintherainmusic - National Park</title>
+			<location>http://vip.aersia.net/mu/pokemongsc-insaneintherainmusic-nationalpark.m4a</location>
+		</track>
 
 		<track>
 			<creator>Pokemon Gold/Silver/Crystal</creator>
@@ -3948,6 +4428,12 @@
 			<creator>Pokemon Mystery Dungeon: Explorers of Time/Darkness/Sky</creator>
 			<title>DJ Achromatic - Primal Dialga Remix</title>
 			<location>http://vip.aersia.net/mu/pokemonmd2-djachromatic-primaldialgaremix.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Pokemon Mystery Dungeon: Red Rescue Team</creator>
+			<title>C-Curt - A Brief Winter Trek</title>
+			<location>http://vip.aersia.net/mu/pokemonmdr-ccurt-briefwintertrek.m4a</location>
 		</track>
 
 		<track>
@@ -3961,11 +4447,29 @@
 			<title>Pallet Town Theme</title>
 			<location>http://vip.aersia.net/mu/pokemonrby-pallettowntheme.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Pokemon Red/Blue/Yellow</creator>
+			<title>Smooth McGroove - Team Rocket Hideout</title>
+			<location>http://vip.aersia.net/mu/pokemonrby-smoothmcgroove-teamrockethideout.m4a</location>
+		</track>
 
 		<track>
 			<creator>Pokemon Spirit Chronicles</creator>
 			<title>Welcome to the World of Pokemon</title>
 			<location>http://vip.aersia.net/mu/pokemonspiritchronicles-welcometotheworldofpokemon.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Pokemon Stadium</creator>
+			<title>Credits (Round 1)</title>
+			<location>http://vip.aersia.net/mu/pokemonstadium-credits(round1).m4a</location>
+		</track>
+		
+		<track>
+			<creator>Pokemon Stadium</creator>
+			<title>Prime Cup Battles 1-3</title>
+			<location>http://vip.aersia.net/mu/pokemonstadium-primecupbattles13.m4a</location>
 		</track>
 
 		<track>
@@ -4146,6 +4650,24 @@
 			<creator>R4: Ridge Racer Type 4</creator>
 			<title>Move Me</title>
 			<location>http://vip.aersia.net/mu/rrt4-moveme.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Rhythm Thief &amp; the Emperor's Treasure</creator>
+			<title>Mastermind</title>
+			<location>http://vip.aersia.net/mu/rhythmthiefatet-mastermind.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Rhythm Thief &amp; the Emperor's Treasure</creator>
+			<title>Theme of Rhythm Thief</title>
+			<location>http://vip.aersia.net/mu/rhythmthiefatet-theme.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Rhythm Thief &amp; the Emperor's Treasure</creator>
+			<title>Throwdown with Napoleon</title>
+			<location>http://vip.aersia.net/mu/rhythmthiefatet-throwdownwithnapoleon.m4a</location>
 		</track>
 
 		<track>
@@ -4338,6 +4860,12 @@
 			<creator>Secret of Mana 2</creator>
 			<title>Aether_Eru - Powell</title>
 			<location>http://vip.aersia.net/mu/secretofmana2-aethereru-powell.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Secret of Mana 2</creator>
+			<title>The Amazing Brando - Another Winter</title>
+			<location>http://vip.aersia.net/mu/secretofmana2-amazingbrando-anotherwinter.m4a</location>
 		</track>
 
 		<track>
@@ -4627,6 +5155,12 @@
 			<title>Cyberwoolf - "Pleasure of Tension" Cover</title>
 			<location>http://vip.aersia.net/mu/snatcher-cyberwoolf-pleasureoftensioncover.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Snowboard Kids</creator>
+			<title>The Second Story - They Call Me Snow Bigman</title>
+			<location>http://vip.aersia.net/mu/snowboardkids-secondstory-theycallmesnowbigman.m4a</location>
+		</track>
 
 		<track>
 			<creator>SOCOM 3</creator>
@@ -4798,14 +5332,26 @@
 
 		<track>
 			<creator>Sonic Unleashed</creator>
-			<title>Adabat Night</title>
-			<location>http://vip.aersia.net/mu/sonicunleashed-adabatnight.m4a</location>
+			<title>Dragon Road-Day</title>
+			<location>http://vip.aersia.net/mu/sonicunleashed-dragonroadday.m4a</location>
 		</track>
-
+		
 		<track>
 			<creator>Sonic Unleashed</creator>
-			<title>Chun-Nan Day</title>
-			<location>http://vip.aersia.net/mu/sonicunleashed-chunnanday.m4a</location>
+			<title>Jungle Joyride-Night</title>
+			<location>http://vip.aersia.net/mu/sonicunleashed-junglejoyridenight.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Sonic Unleashed</creator>
+			<title>Rooftop Run-Day</title>
+			<location>http://vip.aersia.net/mu/sonicunleashed-rooftoprunday.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Sonic Unleashed</creator>
+			<title>Super Sonic vs. Perfect Dark Gaia</title>
+			<location>http://vip.aersia.net/mu/sonicunleashed-supersonicvsperfectdarkgaia.m4a</location>
 		</track>
 
 		<track>
@@ -4963,6 +5509,12 @@
 			<title>Fighting in the Street</title>
 			<location>http://vip.aersia.net/mu/streetsofrage-fightinginthestreet.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Streets of Rage 2</creator>
+			<title>Smooth McGroove - Dreamer</title>
+			<location>http://vip.aersia.net/mu/streetsofrage2-smoothmcgroove-dreamer.m4a</location>
+		</track>
 
 		<track>
 			<creator>Streets of Rage 2</creator>
@@ -4975,11 +5527,35 @@
 			<title>Crystal Space (Level I)</title>
 			<location>http://vip.aersia.net/mu/subterrania-crystalspace.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Suikoden</creator>
+			<title>dif-ref - Touching Theme</title>
+			<location>http://vip.aersia.net/mu/suikoden-difref-touchingtheme.m4a</location>
+		</track>
 
 		<track>
 			<creator>Suikoden II</creator>
 			<title>The Chase</title>
 			<location>http://vip.aersia.net/mu/suikoden2-chase.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Suikoden III</creator>
+			<title>Shigeyoshi Kawagoe - Green Tombstone</title>
+			<location>http://vip.aersia.net/mu/suikoden3-shigeyoshikawagoe-greentombstone.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Suikoden III</creator>
+			<title>Yoko Ueno - To the Sealed Land</title>
+			<location>http://vip.aersia.net/mu/suikoden3-yokoueno-tothesealedland.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Suikoden III</creator>
+			<title>Yuko Asai - Little Ducks</title>
+			<location>http://vip.aersia.net/mu/suikoden3-yukoasai-littleducks.m4a</location>
 		</track>
 
 		<track>
@@ -5035,6 +5611,12 @@
 			<title>PlanetTide - Calm Waters (Dire Dire Docks remix)</title>
 			<location>http://vip.aersia.net/mu/sm64-planettide-calmwaters(dirediredocksremix).m4a</location>
 		</track>
+		
+		<track>
+			<creator>Super Mario 64</creator>
+			<title>Tee Lopes - Cool Cool Mountain</title>
+			<location>http://vip.aersia.net/mu/sm64-teelopes-coolcoolmountain.m4a</location>
+		</track>
 
 		<track>
 			<creator>Super Mario Bros. 3</creator>
@@ -5089,6 +5671,12 @@
 			<title>Athletic</title>
 			<location>http://vip.aersia.net/mu/sml2-athletic.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Super Mario RPG: Legend of the Seven Stars</creator>
+			<title>Smooth McGroove - Forest Maze</title>
+			<location>http://vip.aersia.net/mu/supermariorpg-smoothmcgroove-forestmaze.m4a</location>
+		</track>
 
 		<track>
 			<creator>Super Mario World</creator>
@@ -5130,6 +5718,18 @@
 			<creator>Super Metroid</creator>
 			<title>Metroid Metal - Prelude</title>
 			<location>http://vip.aersia.net/mu/supermetroid-metroidmetal-prelude.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Super Smash Bros. Melee</creator>
+			<title>New Japan Philharmonic - Opening</title>
+			<location>http://vip.aersia.net/mu/ssb2-newjapanphilharmonic-opening.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Super Smash Bros. for Nintendo 3DS &amp; Wii U</creator>
+			<title>Main Theme</title>
+			<location>http://vip.aersia.net/mu/ssb4-maintheme.m4a</location>
 		</track>
 
 		<track>
@@ -5208,6 +5808,30 @@
 			<creator>Tearaway</creator>
 			<title>The Orchards</title>
 			<location>http://vip.aersia.net/mu/tearaway-orchards.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Terra Battle</creator>
+			<title>Day of Reckoning</title>
+			<location>http://vip.aersia.net/mu/terrabattle-dayofreckoning.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Terra Battle</creator>
+			<title>The Eidolons' Awakening</title>
+			<location>http://vip.aersia.net/mu/terrabattle-eidolonsawakening.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Terra Battle</creator>
+			<title>In the Heat of Battle</title>
+			<location>http://vip.aersia.net/mu/terrabattle-intheheatofbattle.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Terra Battle</creator>
+			<title>Earthbound Papas - Main Theme ~TERRA BATTLE~ (Live)</title>
+			<location>http://vip.aersia.net/mu/terrabattle-maintheme(live).m4a</location>
 		</track>
 
 		<track>
@@ -5332,7 +5956,7 @@
 
 		<track>
 			<creator>TH06: Touhou Koumakyou ~ Embodiment of Scarlet Devil</creator>
-			<title>Floating Cloud Acoustic Band - Soshite Kyou mo Koumakan no Tobira ha Hiraku</title>
+			<title>Floating Cloud - Soshite Kyou mo Koumakan no Tobira ha Hiraku</title>
 			<location>http://vip.aersia.net/mu/th06-floatingcloud-soshitekyoumokoumakannotobirahahiraku.m4a</location>
 		</track>
 
@@ -5503,6 +6127,24 @@
 			<title>thj.quartet - D.D.Groove</title>
 			<location>http://vip.aersia.net/mu/th13-thjquartet-ddgroove.m4a</location>
 		</track>
+		
+		<track>
+			<creator>Threads of Fate</creator>
+			<title>A Chance Meeting</title>
+			<location>http://vip.aersia.net/mu/threadsoffate-chancemeeting.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Threads of Fate</creator>
+			<title>Passing Through the Forest</title>
+			<location>http://vip.aersia.net/mu/threadsoffate-passingthroughtheforest.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Threads of Fate</creator>
+			<title>millstones - Last Dungeon ~ Theme of Dewprism</title>
+			<location>http://vip.aersia.net/mu/threadsoffate-millstones-lastdungeonthemeofdewprism.m4a</location>
+		</track>
 
 		<track>
 			<creator>Tower of Heaven</creator>
@@ -5514,6 +6156,24 @@
 			<creator>Transformers: War for Cybertron</creator>
 			<title>Till All Are One</title>
 			<location>http://vip.aersia.net/mu/transformerswfc-tillallare1.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Transistor</creator>
+			<title>Heightmap</title>
+			<location>http://vip.aersia.net/mu/transistor-heightmap.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Transistor</creator>
+			<title>Impossible</title>
+			<location>http://vip.aersia.net/mu/transistor-impossible.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Transistor</creator>
+			<title>The Spine</title>
+			<location>http://vip.aersia.net/mu/transistor-spine.m4a</location>
 		</track>
 
 		<track>
@@ -5604,6 +6264,30 @@
 			<creator>Umineko: When They Cry Breakdown</creator>
 			<title>resurrectedreplayer</title>
 			<location>http://vip.aersia.net/mu/whentheycry4-resurrectedreplayer.m4a</location>
+		</track>
+		
+		<track>
+			<creator>UNDERTALE</creator>
+			<title>ASGORE</title>
+			<location>http://vip.aersia.net/mu/undertale-asgore.m4a</location>
+		</track>
+		
+		<track>
+			<creator>UNDERTALE</creator>
+			<title>Dating Start!</title>
+			<location>http://vip.aersia.net/mu/undertale-datingstart.m4a</location>
+		</track>
+		
+		<track>
+			<creator>UNDERTALE</creator>
+			<title>Heartache</title>
+			<location>http://vip.aersia.net/mu/undertale-heartache.m4a</location>
+		</track>
+		
+		<track>
+			<creator>UNDERTALE</creator>
+			<title>MEGALOVANIA</title>
+			<location>http://vip.aersia.net/mu/undertale-megalovania.m4a</location>
 		</track>
 
 		<track>
@@ -5893,6 +6577,12 @@
 			<title>Bulgarian Symphony Orchestra - Flight -Orchestral Version-</title>
 			<location>http://vip.aersia.net/mu/xenogears-bulgariansymphony-flight(orchestral).m4a</location>
 		</track>
+		
+		<track>
+			<creator>Xenogears</creator>
+			<title>Chjolo, Smooth McGroove - One Who Bares Fangs at God</title>
+			<location>http://vip.aersia.net/mu/xenogears-chjolo-1whobaresfangsatgod.m4a</location>
+		</track>
 
 		<track>
 			<creator>Xenogears</creator>
@@ -5964,6 +6654,12 @@
 			<creator>Ys vs. Sora no Kiseki: Alternative Saga</creator>
 			<title>D.A.Y./BREAK</title>
 			<location>http://vip.aersia.net/mu/ysvloh6-daybreak.m4a</location>
+		</track>
+		
+		<track>
+			<creator>Zelda II: The Adventure of Link</creator>
+			<title>Famicom Guitar - Adventure of Link</title>
+			<location>http://vip.aersia.net/mu/zelda2-famicomguitar-adventureoflink.m4a</location>
 		</track>
 
 		<track>
